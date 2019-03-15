@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    position: relative; 
+    
+}
+
+/*---------------------------------
+    Using on Login page on centre box
+------------------------------------*/
+.center-box{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:99;
+    margin:auto;
+    height:300px;
+    width:300px;
+    /*border:1px solid #000;*/
+    text-align:center;
+    line-height:50px;
+}
+
+
+/*---------------------------------
+    Using css on notification_admin for layout of cards
+------------------------------------*/
+.admin-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  text-align: center;
+}
+
+/*---------------------------------
+    Using css on notification_admin for hovering on cards
+------------------------------------*/
+.admin-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.container-card {
+  padding: 2px 16px;
+}
+
+
+.row-card {
+    margin-top: 100px;
+}
+
+/*---------------------------------
+    Applying margin-top on notification_admin 
+------------------------------------*/
+.row-css {  
+  margin-top: 150px;
+}
+
+.nav-pills {
+   top: 20px;
+    position: fixed;
+}
+
+
+/*---------------------------------
+    Applying css for index for notifications scroll
+------------------------------------*/
+.section-css {
+    height: 250px;
+    width: 100%;
+    font-size: 20px;
+}
+
+/*---------------------------------
+    Applying margin-top on notification_admin 
+------------------------------------*/
+.hr-scroll {
+    border: none;
+    height: 2px;
+    background-color: #123;
+}
