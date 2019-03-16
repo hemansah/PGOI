@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    position: relative; 
+    
     
 }
 
@@ -54,7 +54,7 @@ body {
     Applying margin-top on notification_admin 
 ------------------------------------*/
 .row-css {  
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .nav-pills {
@@ -84,4 +84,48 @@ body {
     height: 2px;
     background-color: blue;
 }
+
+
+/* Applying css on Notification cards on homepage */
+.card-notification-homepage {
+  overflow-y: scroll;
+  height: 400px;
+
+}
+
+
+/* Applying css on notifications_dot_php page */
+.card-notifications {
+
+
+}
+
+.event-homepage {
+  overflow-y: scroll;
+  height: 400px;
+}
+
+
+/*css for ti_me and date in notifications_dot_php */
+
+.td{
+  float: left;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+  
+  
+  
+  
+
+  
+  
 

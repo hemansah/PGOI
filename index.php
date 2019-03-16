@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Homepage</title>
+	<title>Home</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">	
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
@@ -29,22 +29,46 @@
 			<div class="row ml-5">
 				<!-- Notice/Events -->
 				<div class="col-sm-5 my-5">
-					<div class="card card-body bg-light">
+					<div class="card card-body bg-light card-notification-homepage">
+					    <h2>Notification</h2>
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
+					    <h2>Roboto</h2>
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
+					    <h2>Roboto</h2>
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
+					    <h2>Roboto</h2>
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
+					    <h2>Roboto</h2>
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
 					    <h2>Roboto</h2>
 					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
 					</div>
 				</div>
 				<div class="col-sm-5 my-5">
-					<div class="card card-body bg-light">
-					    <h2>Roboto</h2>
+					<div class="card card-body bg-light event-homepage">
+					    <h2>Events</h2>
 					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
+					    <h2>Events</h2>
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
+					    <h2>Events</h2>
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
+					    <h2>Events</h2>
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
+					    <h2>Events</h2>
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
+					    <h2>Events</h2>
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
+
 					</div>
 				</div>
 		        <!-- End notic/events -->
 
 			</div>
 		</div>
-        	
+        <footer class="footer">
+			<p>Footer here</p>
+			
+		</footer>	
 </body>
         <script type="text/javascript" src="assets/js/custom-js.js"></script>
 </html>

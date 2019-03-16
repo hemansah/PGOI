@@ -45,6 +45,10 @@
                     <a href="#"  onclick='alert("Feature coming soon")'><i class="fa fa-bus"></i> Bus Route</a>
                 </li>
 
+                <li>
+                    <a href="#"  onclick='alert("Feature coming soon")'><i class="fa fa-adn"></i> About</a>
+                </li>
+
                 
 
 
