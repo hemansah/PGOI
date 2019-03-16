@@ -1,4 +1,4 @@
-<!------ Index common to all,-------------->
+<!---//////Index common to all//////-->
 
 <!DOCTYPE html>
 <html>
@@ -24,22 +24,27 @@
         	<span id="menuHide">Menu</span>
         </a>
 
+		<div class="container">
+		    <br/>
+			<div class="row ml-5">
+				<!-- Notice/Events -->
+				<div class="col-sm-5 my-5">
+					<div class="card card-body bg-light">
+					    <h2>Roboto</h2>
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
+					</div>
+				</div>
+				<div class="col-sm-5 my-5">
+					<div class="card card-body bg-light">
+					    <h2>Roboto</h2>
+					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
+					</div>
+				</div>
+		        <!-- End notic/events -->
+
+			</div>
+		</div>
         	
 </body>
         <script type="text/javascript" src="assets/js/custom-js.js"></script>
 </html>
-        			
-    				
-
-
-
-
-			
-
-
-
-
-      
-
-   		   
-

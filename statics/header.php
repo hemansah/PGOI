@@ -1,9 +1,4 @@
 
-  <!--   <div id="preloader">
-        <div id="theImage">
-            <img src="images/box.gif" id="preloader_image" alt="loader">
-        </div>
-    </div> -->
 
     <div id="wrapper" class="toggled" >
 
