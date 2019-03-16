@@ -67,9 +67,13 @@ body {
     Applying css for index for notifications scroll
 ------------------------------------*/
 .section-css {
-    height: 250px;
+    height: 20px;
     width: 100%;
-    font-size: 20px;
+    font-size: 15px;
+    color: black;
+    
+    
+
 }
 
 /*---------------------------------
@@ -78,5 +82,5 @@ body {
 .hr-scroll {
     border: none;
     height: 2px;
-    background-color: #123;
+    background-color: blue;
 }

@@ -24,67 +24,20 @@
         	<span id="menuHide">Menu</span>
         </a>
 
-        	<div class="container">
-        		<div class="row">
-        			
-        		</div>
-  				<div class="row row-css">
-    				 <div class="col-10 section-css">
-      		    		<div id="section1">    
-        		    		<h1>Section 1</h1>
-       				   		<p>Try to scroll this section and look at the navigation list while scrolling!
-       				   		Try to scroll this section and look at the navigation list while scrolling!
-       				   	Try to scroll this section and look at the navigation list while scrolling!Try to scroll this section and look at the navigation list while scrolling!</p>
-       				   		<hr class="hr-scroll">
-      					</div>
-      				<div id="section2"> 
-        					<h1>Section 2</h1>
-        					<p>Try to scroll this section and look at the navigation list while scrolling!</p>
-        					<hr class="hr-scroll">
-
-      				</div>        
-      				<div id="section3">         
-        					<h1>Section 3</h1>
-       						 <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-       						 <hr class="hr-scroll">
-      				</div>
-      				<div id="section1">    
-        		    		<h2>Section 1</h2>
-       				   		<p>Try to scroll this section and look at the navigation list while scrolling!</p>
-       				   		<hr class="hr-scroll">
-      				</div>
-      				<div id="section1">    
-        		    		<h1>Section 1</h1>
-       				   		<p>Try to scroll this section and look at the navigation list while scrolling!</p>
-       				   		<hr class="hr-scroll">
-       				   	
-      				</div>
-      				<div id="section1">    
-        		    		<h1>Section 1</h1>
-       				   		<p>Try to scroll this section and look at the navigation list while scrolling!</p>
-       				   		<hr class="hr-scroll">
-      				</div>
-      				<div id="section1">    
-        		    		<h1>Section 1</h1>
-       				   		<p>Try to scroll this section and look at the navigation list while scrolling!</p>
-       				   		<hr class="hr-scroll">
-      				</div>
-      				<div id="section1">    
-        		    		<h1>Section 1</h1>
-       				   		<p>Try to scroll this section and look at the navigation list while scrolling!</p>
-       				   		<hr class="hr-scroll">
-      				</div>
-      				<div id="section1">    
-        		    		<h1>Section 1</h1>
-       				   		<p>Try to scroll this section and look at the navigation list while scrolling!</p>
-       				   		<hr class="hr-scroll">
-      				</div>			
-    		</div>
-  				</div>
-</div>	
+        	
 </body>
         <script type="text/javascript" src="assets/js/custom-js.js"></script>
 </html>
+        			
+    				
+
+
+
+
+			
+
+
+
 
       
 
