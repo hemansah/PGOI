@@ -138,3 +138,12 @@ hr.hr-scroll {
 .notice-span{
   position: absolute;
 }
+
+/*css for events.php*/
+
+
+.image-height{
+  height: 400px;
+  max-width: 100%;
+  object-fit: cover;
+}

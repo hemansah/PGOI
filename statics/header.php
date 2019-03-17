@@ -22,7 +22,7 @@
                 </li>
 
                 <li>
-                    <a href="#"  onclick='alert("Only PGOI Events")'><i class="fa fa-calendar"></i> Events</a>
+                    <a href="events.php"><i class="fa fa-calendar"></i> Events</a>
                 </li>
 
                 <li>
