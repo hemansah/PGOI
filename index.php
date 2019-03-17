@@ -29,7 +29,7 @@
 			<div class="row ml-5">
 				<!-- Notice/Events -->
 				<div class="col-sm-5 my-5">
-					<div class="card card-body bg-light card-notification-homepage">
+					<div class="card-body bg-light card-notification-homepage scroll">
 					    <h2>Notification</h2>
 					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
 					    <h2>Roboto</h2>
@@ -45,7 +45,7 @@
 					</div>
 				</div>
 				<div class="col-sm-5 my-5">
-					<div class="card card-body bg-light event-homepage">
+					<div class="card card-body bg-light event-homepage ">
 					    <h2>Events</h2>
 					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
 					    <h2>Events</h2>
@@ -71,4 +71,6 @@
 		</footer>	
 </body>
         <script type="text/javascript" src="assets/js/custom-js.js"></script>
+
+<script type='text/javascript' src="assets/js/animate-js.js"></script>
 </html>

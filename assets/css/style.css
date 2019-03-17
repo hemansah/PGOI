@@ -32,10 +32,6 @@ body {
   width: 100%;
   text-align: center;
 }
-
-/*---------------------------------
-    Using css on notification_admin for hovering on cards
-------------------------------------*/
 .admin-card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
@@ -50,9 +46,6 @@ body {
     margin-top: 100px;
 }
 
-/*---------------------------------
-    Applying margin-top on notification_admin 
-------------------------------------*/
 .row-css {  
   margin-top: 100px;
 }
@@ -61,19 +54,11 @@ body {
    top: 20px;
     position: fixed;
 }
-
-
-/*---------------------------------
-    Applying css for index for notifications scroll
-------------------------------------*/
 .section-css {
     height: 20px;
     width: 100%;
     font-size: 15px;
     color: black;
-    
-    
-
 }
 
 /*---------------------------------
@@ -88,8 +73,9 @@ body {
 
 /* Applying css on Notification cards on homepage */
 .card-notification-homepage {
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
   height: 400px;
+  overflow:auto;
 
 }
 
@@ -121,7 +107,17 @@ body {
    color: white;
    text-align: center;
 }
-  
+
+/*////////////////autosroll////////////////////*/
+  .scroll-wrap,.scroll {
+    height:400px;
+    overflow-y:scroll; 
+    margin:0 ; 
+    position:relative
+  }
+  .scroll-group {
+    position:absolute;
+  }
   
   
   

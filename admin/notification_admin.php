@@ -19,7 +19,7 @@
         	<span id="menuHide">Menu</span>
     </a>
 
-<!------------------------------------- Contents starts here ---------------------------------------->
+<!--Contents starts here -->
 	<div class="container">
 		<div class="row">
 			<div class="col-10">
@@ -28,12 +28,14 @@
 		</div>
 		<div class="row row-css">
 			<div class="col-6 offset-2" >
-				<form class="" role="" >
+
+        		<div class="alert alert-danger error_message" style="display: none; width: 100%; height: auto; line-height: 1;"></div>
+				<form role="form" method="post" >
 					<div class="form-group">
-						<h6>Topic:</h6><input class="form-control" name="" id="" /><br>
-						<h6>Content:</h6><textarea class="form-control" rows="10" name="" id=""></textarea>
-						<br><button class="btn btn-lg btn-success" name="" id="">Post</button>
-					</div>
+						<h6>Topic:</h6><input class="form-control" name="topic" id="topic" /><br>
+						<h6>Content:</h6><textarea class="form-control" rows="10" name="detail" id="detail"></textarea>
+						<br>
+						<input id="notification-form" type="submit" class="btn btn-success" value="Post">
 				</form>
 				
 			</div>
@@ -45,6 +47,7 @@
 
 
 
-	<script type="text/javascript" src="../assets/js/custom-js.js"></script>
 </body>
+	<script type="text/javascript" src="../assets/js/custom-js.js"></script>
+	<script type="text/javascript" src="../assets/js/admin-actions.js"></script>
 </html>
