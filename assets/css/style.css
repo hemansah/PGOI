@@ -78,19 +78,10 @@ hr.hr-scroll {
   overflow:auto;
 
 }
-
-
-/* Applying css on notifications_dot_php page */
-.card-notifications {
-
-
-}
-
 .event-homepage {
   overflow-y: scroll;
   height: 400px;
 }
-
 
 /*css for ti_me and date in notifications_dot_php */
 
@@ -126,12 +117,24 @@ hr.hr-scroll {
   .box-click-here-events {
     margin-left: 50%;
   }
-  
-  
 
-
-  
-
-  
-  
-
+  /*----------------------------
+  user index page css
+---------------------------------*/
+ 
+.notice-ol{
+  list-style-type: none;
+}
+ 
+.notice-li{
+  position: relative;
+  font: bold italic ;
+  margin-bottom: 12px;
+}
+ 
+.notice-p{
+  padding-left: 15px;
+} 
+.notice-span{
+  position: absolute;
+}

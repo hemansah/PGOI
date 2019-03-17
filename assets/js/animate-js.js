@@ -5,7 +5,7 @@ $(document).ready(function(){
 $('.scroll').wrap('<div class="scroll-group"></div>');
 $('.scroll').css({'overflow':'hidden',height:'auto'});
 $('.scroll-group').append($('.scroll').clone());
-$('.scroll-group').wrap('<div class="scroll-wrap card"></div>');
+$('.scroll-group').wrap('<div class="scroll-wrap card" style="background-color: #f8f9fa !important"></div>');
 $('.scroll-wrap').css({'overflow':'hidden'});
 
 /*animate*/

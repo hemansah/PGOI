@@ -1,3 +1,9 @@
+<?php 
+
+	include 'admin/dbconfig/dbconnect.php';
+	include 'lib/functions-php.php';
+	$notification = all_notifications($dbhandle);
+?>
 <!---//////Index common to all//////-->
 
 <!DOCTYPE html>
@@ -30,29 +36,30 @@
 				<!-- Notice/Events -->
 				<div class="col-sm-5 my-5">
 					<div class="card-body bg-light card-notification-homepage scroll">
-					    <h2>Notification</h2>
-					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
-					    <hr class="hr-scroll">
 
-					    <h2>Notification</h2>
-					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
-					    <hr class="hr-scroll">
+						<div class="notice-list">
+						  <ol class="notice-ol">
+							<?php 
+								if ($notification){
+									while ($row=mysqli_fetch_assoc($notification)){
 
-					    <h2>Notification</h2>
-					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
-					    <hr class="hr-scroll">
+										echo ' 
+											    <li class="notice-li">
+											    	<h4 class="notice-span"> 
+											    		<i class="fa fa-chevron-circle-right" aria-hidden="true"></i> '.$row['topic'].'
+											    	</h4>
+											    	<br>
+											    	<p class="notice-p">' . $row['details'] . '</p>
+											    </li>
+						    					<hr class="."hr-scroll".">';
+									}
+								}else{
+									echo "<h4>No Notification to show.</h4>";
+								}
+							?>
+						  </ol> 
+						</div>
 
-					    <h2>Notification</h2>
-					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
-					    <hr class="hr-scroll">
-
-					    <h2>Notification</h2>
-					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
-					    <hr class="hr-scroll">
-
-					    <h2>Notification</h2>
-					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
-					    <hr class="hr-scroll">
 					</div>
 
 					<div class="box-click-here">
