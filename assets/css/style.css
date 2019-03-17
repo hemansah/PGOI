@@ -64,10 +64,10 @@ body {
 /*---------------------------------
     Applying margin-top on notification_admin 
 ------------------------------------*/
-.hr-scroll {
+hr.hr-scroll {
     border: none;
-    height: 2px;
-    background-color: blue;
+    height: 1px;
+    background-color: black;
 }
 
 
@@ -118,8 +118,18 @@ body {
   .scroll-group {
     position:absolute;
   }
+
+  .box-click-here {
+    margin-left: 50%;
+  }
+
+  .box-click-here-events {
+    margin-left: 50%;
+  }
   
   
+
+
   
 
   

@@ -11,14 +11,14 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" onclick='alert("Just keep clicking home")'><i class="fa fa-home"></i> Home</a>
+                    <a href="index.php"><i class="fa fa-home"></i> Home</a>
                 </li>
                <!-- <li>
                     <a href="logout.php"><i class="fa fa-sign-out"></i> Logout</a>
                 </li>-->
 
                 <li>
-                    <a href="#"  onclick='alert("Notification")'><i class="fa fa-bell"></i> Notification</a>
+                    <a href="notifications.php"><i class="fa fa-bell"></i> Notification</a>
                 </li>
 
                 <li>

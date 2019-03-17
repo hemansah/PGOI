@@ -13,7 +13,7 @@ var targetY = $('.scroll').eq(0).outerHeight();
 
 var scroll = function(resetY){
   
-     $('.scroll-group').animate({top:targetY*-1+'px'},6000,"linear", function(){
+     $('.scroll-group').animate({top:targetY*-1+'px'},19000,"linear", function(){
           $('.scroll-group').css({top:0});
           scroll();
      });

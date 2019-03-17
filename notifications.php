@@ -86,9 +86,9 @@
 
 					    <div class="details">
 					    	<p class="td">Time: hh:mm | Date: dd/mm/yyyy</p>
-					    	
+					    	 <hr class="hr-scroll">
 					    </div>
-					    <hr class="hr-scroll">
+					   
 
 					    		    
 

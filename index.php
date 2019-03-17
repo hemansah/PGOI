@@ -31,19 +31,41 @@
 				<div class="col-sm-5 my-5">
 					<div class="card-body bg-light card-notification-homepage scroll">
 					    <h2>Notification</h2>
-					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
-					    <h2>Roboto</h2>
-					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
-					    <h2>Roboto</h2>
-					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
-					    <h2>Roboto</h2>
-					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
-					    <h2>Roboto</h2>
-					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
-					    <h2>Roboto</h2>
-					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
+					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
+					    <hr class="hr-scroll">
+
+					    <h2>Notification</h2>
+					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
+					    <hr class="hr-scroll">
+
+					    <h2>Notification</h2>
+					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
+					    <hr class="hr-scroll">
+
+					    <h2>Notification</h2>
+					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
+					    <hr class="hr-scroll">
+
+					    <h2>Notification</h2>
+					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
+					    <hr class="hr-scroll">
+
+					    <h2>Notification</h2>
+					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
+					    <hr class="hr-scroll">
 					</div>
+
+					<div class="box-click-here">
+						<a href="notifications.php"><p>See all>>>>>>>></p></a>
+					</div>
+
 				</div>
+
+
+
+					    
+					    
+
 				<div class="col-sm-5 my-5">
 					<div class="card card-body bg-light event-homepage ">
 					    <h2>Events</h2>
@@ -60,6 +82,11 @@
 					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
 
 					</div>
+
+					<div class="box-click-here-events">
+						<a href="#"><p>See all>>>>>>>></p></a>
+					</div>
+
 				</div>
 		        <!-- End notic/events -->
 
