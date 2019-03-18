@@ -1,3 +1,8 @@
+<?php
+	include 'admin/dbconfig/dbconnect.php';
+	include 'lib/functions-php.php';
+	$notification = all_notifications($dbhandle);
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,75 +32,30 @@
 			<div class="row ml-5 row-css">
 				<!-- Notice/Events -->
 				<div class="col-sm-10 my-10">
-					<div class="card card-body bg-light card-notifications">
-					    <h2>Notification_Header</h2><hr>
-					    <p><strong>Content:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					    Duis pharetra codeply varius quam sit amet vulputate</p>
+					<div class="card card-body bg-light card-notifications">						
+							<?php 
+								if ($notification){
+									while ($row=mysqli_fetch_assoc($notification)){
 
-					    <div class="details">
-					    	<p class="td">Time: hh:mm | Date: dd/mm/yyyy</p>
-					    	
-					    </div>
-					    <hr class="hr-scroll">	
+										echo '
+											<h4><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>'.$row['topic'].'</h4>
+											 <p><strong>Content:</strong> ' . $row['details'] . ' </p>											
+										    <div class="details">
+										    	<p class="td">'.$row['date_time'].'</p>										    	
+										    </div>
+										    <hr class="hr-scroll">	';
+									}
+								}else{
+									echo "<h4>No Notification to show.</h4>";
+								}
+							?>
 
-					    <h2>Notification_Header</h2><hr>
-					    <p><strong>Content:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					    Duis pharetra codeply varius quam sit amet vulputate</p>
-
-					    <div class="details">
-					    	<p class="td">Time: hh:mm | Date: dd/mm/yyyy</p>
-					    	
-					    </div>
-					    <hr class="hr-scroll">
-
-
-					    <h2>Notification_Header</h2><hr>
-					    <p><strong>Content:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					    Duis pharetra codeply varius quam sit amet vulputate</p>
-
-					    <div class="details">
-					    	<p class="td">Time: hh:mm | Date: dd/mm/yyyy</p>
-					    	
-					    </div>
-					    <hr class="hr-scroll">
-
-
-					    <h2>Notification_Header</h2><hr>
-					    <p><strong>Content:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					    Duis pharetra codeply varius quam sit amet vulputate</p>
-
-					    <div class="details">
-					    	<p class="td">Time: hh:mm | Date: dd/mm/yyyy</p>
-					    	
-					    </div>
-					    <hr class="hr-scroll">
-
-					     <h2>Notification_Header</h2><hr>
-					    <p><strong>Content:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					    Duis pharetra codeply varius quam sit amet vulputate</p>
-
-					    <div class="details">
-					    	<p class="td">Time: hh:mm | Date: dd/mm/yyyy</p>
-					    	
-					    </div>
-					    <hr class="hr-scroll">
-
-					    <h2>Notification_Header</h2><hr>
-					    <p><strong>Content:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-					    Duis pharetra codeply varius quam sit amet vulputate</p>
-
-					    <div class="details">
-					    	<p class="td">Time: hh:mm | Date: dd/mm/yyyy</p>
-					    	 <hr class="hr-scroll">
-					    </div>
-					   
-
-					    		    
 
 					</div>
 				</div>
 			</div>
 		</div>
+		
 		
 		<?php
 		include_once'statics/footer.php';
