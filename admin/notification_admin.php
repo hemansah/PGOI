@@ -60,7 +60,7 @@
 
 
 		<div class="row">
-			<div class="col-11 ">
+			<div class="col-11">
 				<table class="table">
 					<thead class="thead-dark">
 						<th>S.no</th>
@@ -78,7 +78,8 @@
 							<td>hh:mm dd/mm/yyyy</td>
 							<td>
 								<button class="btn btn-success" id="" name="">Edit</button>
-								<button class="btn btn-danger " id="" name="">Delete</button>
+								<button class="btn btn-primary">Hide/Unhide</button>
+								<button class="btn btn-danger" id="" name="">Delete</button>
 							</td>
 						</tr>
 
