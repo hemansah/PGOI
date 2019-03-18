@@ -27,10 +27,8 @@
         	<span id="menuHide">Menu</span>
         </a>
 
-        <div class="container">
-        	<div class="row row-css">
-        		
-        	</div>
+        <div class="container-fluid">
+        	
 
         	<div class="row">
         		<div class="col-10">

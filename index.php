@@ -103,9 +103,9 @@
 <!---------------------------End of Container----------------------------------->
 
 
-        <footer class="footer-index">
-			<p>Footer here</p>
-		</footer>	
+       <?php
+	include_once'statics/footer.php';
+	?>
 			
 </body>
         <script type="text/javascript" src="assets/js/custom-js.js"></script>
