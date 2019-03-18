@@ -104,7 +104,7 @@
 
 
        	<?php
-		include_once'statics/header.php';
+		include_once'statics/footer.php';
 		?>
 			
 </body>

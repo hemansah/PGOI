@@ -94,8 +94,10 @@ hr.hr-scroll {
   float: left;
 }
 
-
-.footer-index {
+/*---------------------------------------------
+  css for footer
+-------------------------------------------------*/
+.footer {
    position: fixed;
    left: 0;
    bottom: 0;

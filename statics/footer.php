@@ -1,3 +1,3 @@
- <footer class="footer-index">
+ <footer class="footer">
 			<p>Footer here</p>
 </footer>
