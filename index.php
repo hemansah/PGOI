@@ -30,6 +30,7 @@
         	<span id="menuHide">Menu</span>
         </a>
 
+<!-----------------Start of Container------------------->
 		<div class="container">
 		    <br/>
 			<div class="row ml-5">
@@ -99,12 +100,14 @@
 
 			</div>
 		</div>
-        <footer class="footer">
+<!---------------------------End of Container----------------------------------->
+
+
+        <footer class="footer-index">
 			<p>Footer here</p>
-			
 		</footer>	
+			
 </body>
         <script type="text/javascript" src="assets/js/custom-js.js"></script>
-
-<script type='text/javascript' src="assets/js/animate-js.js"></script>
+		<script type='text/javascript' src="assets/js/animate-js.js"></script>
 </html>

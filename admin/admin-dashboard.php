@@ -31,59 +31,83 @@
 		</div>
 		<div class="row row-card">
 			<div class="col-4">
-				<a href="notification_admin.php"><div class="card">
-  					<div class="admin-card">
-    					<h4><b>Notification</b></h4> 
-    						<p>Publish information here</p> 
-  					</div>
-				</div></a>
+				<a href="notification_admin.php">
+					<div class="card">
+  						<div class="admin-card">
+  							<i class="fa fa-bell"></i> 
+    						<h4><b>Notification</b></h4> 
+    							<p>Publish information here</p> 
+  						</div>
+					</div>
+				</a>
 			</div>
+
 			<div class="col-4">
-				<a href=""><div class="card">
-  					<div class="admin-card">
-    					<h4><b>Attendance</b></h4> 
-    						<p>Upload attendance</p> 
-  					</div>
-				</div></a>
+				<a href="">
+					<div class="card">
+  						<div class="admin-card">
+  							<i class="fa fa-book"></i>
+    						<h4><b>Attendance</b></h4> 
+    							<p>Upload attendance</p> 
+  						</div>
+					</div>
+				</a>
 			</div>
+
 			<div class="col-4">
-				<a href=""><div class="card">
-  					<div class="admin-card">
-    					<h4><b>Bus Route</b></h4> 
-    						<p>Add bus route</p> 
-  					</div>
-				</div></a>
+				<a href="">
+					<div class="card">
+  						<div class="admin-card">
+  							<i class="fa fa-bus"></i>
+    						<h4><b>Bus Route</b></h4> 
+    							<p>Add bus route</p> 
+  						</div>
+					</div>
+				</a>
 			</div>
 
 		</div>
+		
 		<div class="row row-card">
 			<div class="col-4">
-				<a href=""><div class="card">
-  					<div class="admin-card">
-    					<h4><b>Events</b></h4> 
-    						<p>Add event</p> 
-  					</div>
-				</div></a>
+				<a href="">
+					<div class="card">
+  						<div class="admin-card">
+  							<i class="fa fa-star"></i>
+    						<h4><b>Events</b></h4> 
+    							<p>Add event</p> 
+  						</div>
+					</div>
+				</a>
 			</div>
+
 			<div class="col-4">
-				<a href=""><div class="card">
-  					<div class="admin-card">
-    					<h4><b>Campus</b></h4> 
-    						<p>Publish information</p> 
-  					</div>
-				</div></a>
+				<a href="">
+					<div class="card">
+  						<div class="admin-card">
+  							<i class="fa fa-building"></i>
+    						<h4><b>Campus</b></h4> 
+    							<p>Publish information</p> 
+  						</div>
+					</div>
+				</a>
 			</div>
+
 			<div class="col-4">
-				<a href=""><div class="card">
-  					<div class="admin-card">
-    					<h4><b>Syllabus</b></h4> 
-    						<p>Add Syllabus</p> 
-  					</div>
-				</div></a>
+				<a href="">
+					<div class="card">
+  						<div class="admin-card">
+  							<i class="fa fa-book"></i>
+    						<h4><b>Syllabus</b></h4> 
+    							<p>Add Syllabus</p> 
+  						</div>
+					</div>
+				</a>
 			</div>
+
 		</div>			
 	</div>
-</div>
+
 </body>
 <script type="text/javascript" src="../assets/js/custom-js.js"></script>
 </html>

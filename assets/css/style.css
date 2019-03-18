@@ -23,12 +23,18 @@ body {
 }
 
 
+/*-------------------------------------------
+    Using css on admin-dashboard.pho
+*/
+
+
 /*---------------------------------
     Using css on notification_admin for layout of cards
 ------------------------------------*/
 .admin-card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+  height: 120px;
   width: 100%;
   text-align: center;
 }
@@ -49,7 +55,7 @@ body {
 .row-css {  
   margin-top: 70px;
   margin-bottom: 20px;
-
+}
 .nav-pills {
    top: 20px;
     position: fixed;
@@ -88,7 +94,8 @@ hr.hr-scroll {
   float: left;
 }
 
-.footer {
+
+.footer-index {
    position: fixed;
    left: 0;
    bottom: 0;

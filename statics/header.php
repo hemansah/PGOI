@@ -38,7 +38,7 @@
                 </li>
 
                 <li>
-                    <a href="#"  onclick='alert("This feature will never come")'><i class="fa fa-clipboard"></i> Attendance</a>
+                    <a href="attendance.php"><i class="fa fa-clipboard"></i> Attendance</a>
                 </li>
 
                 <li>
