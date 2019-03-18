@@ -8,10 +8,11 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		
 		<link rel="stylesheet" type="text/css" href="assets/css/sidebar.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 		 
 
 		
@@ -27,10 +28,8 @@
         	<span id="menuHide">Menu</span>
         </a>
 
-        <div class="container">
-        	<div class="row row-css">
-        		
-        	</div>
+        <div class="container-fluid">
+        	
 
         	<div class="row">
         		<div class="col-10">
