@@ -46,14 +46,26 @@
 					    <div class="carousel-inner">
 					      <div class="item active image-height">
 					        <img class="" src="assets/images/image1.jpg" alt="Los Angeles" style="width:100%;">
+					      	<div class="carousel-caption">
+					          <h2>Dummy Image 1</h2>
+					          <p>It's beautiful...</p>
+					        </div>
 					      </div>
 
 					      <div class="item image-height">
 					        <img class="" src="assets/images/image2.jpg" alt="Chicago" style="width:100%;">
+					      	<div class="carousel-caption">
+					          <h2>Dummy Image 2</h2>
+					          <p>We love the Big Apple!</p>
+					        </div>
 					      </div>
 					    
 					      <div class="item image-height">
 					        <img class="" src="assets/images/image3.jpg" alt="New york" style="width:100%;">
+					        <div class="carousel-caption">
+					          <h2>Dummy Image 3</h2>
+					          <p>We love the Big Apple!</p>
+					        </div>
 					      </div>
 					    </div>
 
