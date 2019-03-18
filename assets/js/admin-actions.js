@@ -1,10 +1,19 @@
 $(document).ready(function(){
-/*********************JS to send request to login php script**************************/
+/*********************************************
+****To send request to notifiaction php script****
+**********************************************/
 	$('#notification-form').click(function(){
 		$(".error_message").css("display","none");
 		//validate
 		var topic = $('#topic').val();
 		var details = $('#detail').val();
+		var status = $('#status option:selected').val();
+		if (status != 'active'){
+			if(status != 'disable') {
+				alert("Something wrong with script! Refresh and try again.");
+				return false;
+			}
+		}
 		if (details == '') {
 			details_result = 0;
 			details_error = "Enter the details!";
@@ -33,12 +42,17 @@ $(document).ready(function(){
 						data: {
 							action : "notice-form",
 							topic : topic,
-							details : details
+							details : details,
+							status : status
 						},
 						dataType : "json",
 						success: function(response){	
 							if (response.success) {
-								window.location.href = 'admin-dashboard.php';
+								$(".error_message").removeClass('alert-danger');
+								$(".error_message").css("display","inline-block").html(response.msg+" <br/> <b>Refresh page to see changes!</b>");
+								$(".error_message").addClass('alert-success');
+								setTimeout(function() { $(".error_message").css("display","none") }, 4000);
+  								$('#notice-form').toggle(400);
 							} else {
 								$(".error_message").css("display","inline-block").html(response.error);
 								return false;
@@ -48,5 +62,19 @@ $(document).ready(function(){
     		}
 		return false;
 	}); //notice-submit-form end here
+/*******************************************
+**********Delete a notification************
+*******************************************/
+$('.delete-notice').click(function(){
+  		var noticeId = $(this).val();
+  		alert(noticeId);
+  });
+
+/*********************************************
+****Show / Hide Notice form ****
+**********************************************/
+$('#add-hide-notice , #hide-notice').click(function(){
+  		$('#notice-form').toggle(400);
+  });
 
 });

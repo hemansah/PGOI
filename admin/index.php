@@ -20,7 +20,7 @@ include 'dbconfig/dbconnect.php';
 		<div class="row">
        		<div class="center-box">
     			<!-- The Message of form here -->
-        		<div class="alert alert-danger error_message" style="display: none; width: 100%; height: auto; line-height: 1;"></div>
+        		<div id="message" class="alert alert-danger error_message" style="display: none; width: 100%; height: auto; line-height: 1;"></div>
        			<h3>Login</h3>
               	<form  method="post" role="form">
 						<div class="form-group">

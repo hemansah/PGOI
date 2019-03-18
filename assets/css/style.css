@@ -5,7 +5,7 @@ body {
 }
 
 /*---------------------------------
-    Using on Login page on centre box
+    Using css on Login page on centre box
 ------------------------------------*/
 .center-box{
     position:absolute;
@@ -47,8 +47,8 @@ body {
 }
 
 .row-css {  
-  margin-top: 100px;
-}
+  margin-top: 70px;
+  margin-bottom: 20px;
 
 .nav-pills {
    top: 20px;
@@ -69,7 +69,6 @@ hr.hr-scroll {
     height: 1px;
     background-color: black;
 }
-
 
 /* Applying css on Notification cards on homepage */
 .card-notification-homepage {

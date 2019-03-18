@@ -1,3 +1,9 @@
+<?php 
+
+	include 'dbconfig/dbconnect.php';
+	include '../lib/functions-php.php';
+	$notification = all_notifications($dbhandle);
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,7 +35,7 @@
 
 		<div class="row row-css">
 			<div class="col-12 ">
-			<button class="btn btn-info pull-right" style="float: right;">Add Notification</button>			
+			<button id="add-hide-notice" class="btn btn-info pull-right" style="float: right;">Add Notification</button>			
 			</div>
 		</div>
 
@@ -39,7 +45,7 @@
         		<div class="alert alert-danger error_message" style="display: none; width: 100%; height: auto; line-height: 1;">
         		</div>
         			
-					<form role="form" method="post" >
+					<form role="form" method="post" id="notice-form" style="display: none;">
 						<div class="form-group">
 							<h2 style="text-align: center;" class="text-white bg-dark" >Post a Notification here!</h2>
 							<h6><b>Topic:</b></h6>
@@ -47,11 +53,12 @@
 							<h6><b>Content:</b></h6>
 							<textarea class="form-control" rows="10" name="detail" id="detail" placeholder="Write your content here..."></textarea>
 							<label><b>Choose Action:</b></label>
-							<select class="form-control" id="" name="">
-							    <option id="">Post Now</option>
-						    	<option id=""  >Post Later</option>
+							<select class="form-control" id="status" name="status">
+							    <option value="active">Active</option>
+						    	<option value="disable">Disabled</option>
 					  		</select><br>
-					  		<input id="notification-form" type="submit" class="btn btn-success" value="Post">
+					  		<input id="notification-form" type="submit" class="btn btn-success" value="Post">					  		
+							<button id="hide-notice" class="btn btn-danger">Cancel</button>	
 					  	</div>
 					</form>
 				</div>
@@ -65,67 +72,35 @@
 					<thead class="thead-dark">
 						<th>S.no</th>
 						<th>Title</th>
-						<th>Description</th>
+						<th width="40%">Description</th>
 						<th>Post Time</th>
 						<th>Actions</th>
 					</thead>
 
 					<tbody>
-						<tr>
-							<td>1.</td>
-							<td>Hello</td>
-							<td>World is here...</td>
-							<td>hh:mm dd/mm/yyyy</td>
-							<td>
-								<button class="btn btn-success" id="" name="">Edit</button>
-								<button class="btn btn-primary">Hide/Unhide</button>
-								<button class="btn btn-danger" id="" name="">Delete</button>
-							</td>
-						</tr>
 
-						<tr>
-							<td>1.</td>
-							<td>Hello</td>
-							<td>World is here...</td>
-							<td>hh:mm dd/mm/yyyy</td>
-							<td>
-								<button class="btn btn-success" id="" name="">Edit</button>
-								<button class="btn btn-danger" id="" name="">Delete</button>
-							</td>
-						</tr>
+						<?php 
+							if ($notification){
+									$i=0;
+								while ($row=mysqli_fetch_assoc($notification)){
+									$i = $i+1;
+									echo ' 
+										<tr>
+											<td> '.$i.'.</td>
+											<td>'.$row['topic'].'</td>
+											<td>' . $row['details'] . '</td>
+											<td>' . $row['date_time'] . '</td>
+											<td>
+												<button class="btn btn-success" class="edit-notice" value="' . $row['id'] . '" name="edit">Edit</button>
+												<button class="btn btn-danger" class="delete-notice" value="' . $row['id'] . '" name="delete">Delete</button>
+											</td>
+										</tr>';
+								}
+							}else{
+								echo "<h4>No Notification to show.</h4>";
+							}
+						?>
 
-						<tr>
-							<td>1.</td>
-							<td>Hello</td>
-							<td>World is here...</td>
-							<td>hh:mm dd/mm/yyyy</td>
-							<td>
-								<button class="btn btn-success" id="" name="">Edit</button>
-								<button class="btn btn-danger" id="" name="">Delete</button>
-							</td>
-						</tr>
-
-						<tr>
-							<td>1.</td>
-							<td>Hello</td>
-							<td>World is here...</td>
-							<td>hh:mm dd/mm/yyyy</td>
-							<td>
-								<button class="btn btn-success" id="" name="">Edit</button>
-								<button class="btn btn-danger" id="" name="">Delete</button>
-							</td>
-						</tr>
-
-						<tr>
-							<td>1.</td>
-							<td>Hello</td>
-							<td>World is here...</td>
-							<td>hh:mm dd/mm/yyyy</td>
-							<td>
-								<button class="btn btn-success" id="" name="">Edit</button>
-								<button class="btn btn-danger" id="" name="">Delete</button>
-							</td>
-						</tr>
 					</tbody>
 				</table>
 			</div>
