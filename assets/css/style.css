@@ -86,12 +86,48 @@ hr.hr-scroll {
 .event-homepage {
   overflow-y: scroll;
   height: 400px;
+  margin-left: 30px;
 }
 
-/*css for ti_me and date in notifications_dot_php */
+/********************************
+*****css for notifications.php***
+********************************/
 
 .td{
   float: left;
+}
+.typewriter{
+    width: 220px; 
+    background: #E23737;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5%;
+    z-index: 100;
+    box-shadow: 5px -4px 0px rgba(0, 0, 36, 0.5);
+}
+.typewriter h3 {
+  color: #fff;
+  overflow: hidden; 
+  border-right: .15em solid #fff; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 2.5s steps(20, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff }
 }
 
 /*---------------------------------------------
@@ -145,6 +181,27 @@ hr.hr-scroll {
 } 
 .notice-span{
   position: absolute;
+}
+.vertical-text{
+    background: #E23737;
+    color: #fff;
+    margin-left: 40px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10%;
+    text-transform: uppercase;
+    float: left;
+    position: absolute;
+    z-index: 100;
+    box-shadow: 5px -4px 0px rgba(0, 0, 36, 0.5);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -ms-transform-origin: left top 0;
+    -moz-transform-origin: left top 0;
+    -webkit-transform-origin: left top 0;
+    transform-origin: left top 0;
+    text-transform: 1px 1px 0px rgba(0, 0, 0, 0.5);
 }
 
 /*css for events.php*/

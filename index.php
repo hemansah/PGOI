@@ -36,6 +36,9 @@
 			<div class="row ml-5">
 				<!-- Notice/Events -->
 				<div class="col-sm-5 my-5">
+							<div style="position: relative;">
+								<div class="vertical-text">Notice Board</div>
+							</div>
 					<div class="card-body bg-light card-notification-homepage scroll">
 
 						<div class="notice-list">
@@ -75,6 +78,9 @@
 					    
 
 				<div class="col-sm-5 my-5">
+							<div style="position: relative;">
+								<div class="vertical-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Events &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+							</div>
 					<div class="card card-body bg-light event-homepage ">
 					    <h2>Events</h2>
 					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.

@@ -32,6 +32,9 @@
 			<div class="row ml-5 row-css">
 				<!-- Notice/Events -->
 				<div class="col-sm-10 my-10">
+					<div class="typewriter">
+						<h3>Notifications.</h3>
+					</div>
 					<div class="card card-body bg-light card-notifications">						
 							<?php 
 								if ($notification){
