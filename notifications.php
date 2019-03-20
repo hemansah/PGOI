@@ -8,7 +8,7 @@
 <head>
 	<title>Notifications</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">	
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Righteous|Varela+Round" rel="stylesheet">
 		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -23,15 +23,27 @@
 	<?php
 	include_once'statics/header.php';
 	?>
-        <a href="#menu-toggle" class="btn btn-dark" id="menu-toggle">
-        	<span id="menuHide">Menu</span>
-        </a>
 
-        <div class="container">
-		    <br/>
+
+        
+
+        <div class="container-fluid">
+		    <div class="row">
+		    	<div class="col-12 title-topbar">
+
+		    		<a href="#menu-toggle" class="btn text-white pull-left" id="menu-toggle">
+        			<span id="menuHide">Menu</span>
+        			</a>
+
+		    		<?php
+					include_once'statics/topbar.php';
+					?>
+		    	</div>
+		    </div>
+		    		
 			<div class="row ml-5 row-css">
 				<!-- Notice/Events -->
-				<div class="col-sm-10 my-10">
+				<div class="col-sm-10 my-10 offset-1">
 					<div class="typewriter">
 						<h3>Notifications.</h3>
 					</div>
@@ -57,12 +69,15 @@
 					</div>
 				</div>
 			</div>
+
+			
+			
 		</div>
-		
-		
 		<?php
-		include_once'statics/footer.php';
-		?>
+					include_once'statics/footer.php';
+					?>		
+		
+		
 </body>	
 	 <script type="text/javascript" src="assets/js/custom-js.js"></script>
 </html>

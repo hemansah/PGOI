@@ -7,7 +7,7 @@
 	<title>Admin Menus</title>
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="../assets/css/sidebar.css">
 		<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -34,7 +34,7 @@
 				<a href="notification_admin.php">
 					<div class="card">
   						<div class="admin-card">
-  							<i class="fa fa-bell"></i> 
+  							<i class="fa fa-bell fa-3x"></i> 
     						<h4><b>Notification</b></h4> 
     							<p>Publish information here</p> 
   						</div>
@@ -46,7 +46,7 @@
 				<a href="">
 					<div class="card">
   						<div class="admin-card">
-  							<i class="fa fa-book"></i>
+  							<i class="fa fa-book fa-3x"></i>
     						<h4><b>Attendance</b></h4> 
     							<p>Upload attendance</p> 
   						</div>
@@ -58,7 +58,7 @@
 				<a href="">
 					<div class="card">
   						<div class="admin-card">
-  							<i class="fa fa-bus"></i>
+  							<i class="fa fa-bus fa-3x"></i>
     						<h4><b>Bus Route</b></h4> 
     							<p>Add bus route</p> 
   						</div>
@@ -70,10 +70,10 @@
 		
 		<div class="row row-card">
 			<div class="col-4">
-				<a href="">
+				<a href="events_admin.php">
 					<div class="card">
   						<div class="admin-card">
-  							<i class="fa fa-star"></i>
+  							<i class="fa fa-star fa-3x"></i>
     						<h4><b>Events</b></h4> 
     							<p>Add event</p> 
   						</div>
@@ -85,7 +85,7 @@
 				<a href="">
 					<div class="card">
   						<div class="admin-card">
-  							<i class="fa fa-building"></i>
+  							<i class="fa fa-building fa-3x"></i>
     						<h4><b>Campus</b></h4> 
     							<p>Publish information</p> 
   						</div>
@@ -97,7 +97,7 @@
 				<a href="">
 					<div class="card">
   						<div class="admin-card">
-  							<i class="fa fa-book"></i>
+  							<i class="fa fa-book fa-3x"></i>
     						<h4><b>Syllabus</b></h4> 
     							<p>Add Syllabus</p> 
   						</div>
@@ -105,7 +105,20 @@
 				</a>
 			</div>
 
-		</div>			
+		</div>	
+		<div class="row row-card">
+			<div class="col-4">
+				<a href="events_admin.php">
+					<div class="card">
+  						<div class="admin-card">
+  							<i class="fa fa-inr fa-3x"></i>
+    						<h4><b>Fee Status</b></h4> 
+    							<p>Update sta0tus here</p> 
+  						</div>
+					</div>
+				</a>
+			</div>
+			</div>		
 	</div>
 
 </body>

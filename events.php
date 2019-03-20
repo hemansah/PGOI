@@ -4,7 +4,7 @@
 	<title>Events</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
 
-		
+		<link href="https://fonts.googleapis.com/css?family=Righteous|Varela+Round" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -20,18 +20,31 @@
 		
 </head>
 <body>
-	<?php
-	include_once'statics/header.php';
-	?>
-        <a href="#menu-toggle" class="btn btn-dark" id="menu-toggle">
-        	<span id="menuHide">Menu</span>
-        </a>
+	
+
+		<?php
+		include_once'statics/header.php';
+		?>
+       
 
         <div class="container-fluid">
         	
+        		<div class="row">
+		    	<div class="col-12 title-topbar">
+
+		    		<a href="#menu-toggle" class="btn text-white pull-left" id="menu-toggle">
+        			<span id="menuHide">Menu</span>
+        			</a>
+
+		    		<?php
+					include_once'statics/topbar.php';
+					?>
+		    	</div>
+		    </div>
+
 
         	<div class="row">
-        		<div class="col-10">
+        		<div class="col-12">
         			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 					    <!-- Indicators -->
 					    <ol class="carousel-indicators">
@@ -80,7 +93,9 @@
         		</div>
         	</div>
         </div>
-
+<?php
+					include_once'statics/footer.php';
+					?>
 
 </body>
 

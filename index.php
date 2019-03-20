@@ -11,7 +11,8 @@
 <head>
 	<title>Home</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">	
-		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Righteous|Varela+Round" rel="stylesheet">
+
 		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -23,16 +24,30 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+	
+
 	<?php
 	include_once'statics/header.php';
 	?>
-        <a href="#menu-toggle" class="btn btn-dark" id="menu-toggle">
-        	<span id="menuHide">Menu</span>
-        </a>
-
+        
 <!-----------------Start of Container------------------->
-		<div class="container">
-		    <br/>
+		<div class="container-fluid">
+		    
+		    <div class="row">
+		    	<div class="col-12 title-topbar">
+
+		    		<a href="#menu-toggle" class="btn text-white pull-left" id="menu-toggle">
+        			<span id="menuHide">Menu</span>
+        			</a>
+
+		    		<?php
+					include_once'statics/topbar.php';
+					?>
+		    	</div>
+		    </div>
+
+
 			<div class="row ml-5">
 				<!-- Notice/Events -->
 				<div class="col-sm-5 my-5">
@@ -105,14 +120,16 @@
 		        <!-- End notic/events -->
 
 			</div>
+
 		</div>
 <!---------------------------End of Container----------------------------------->
+				<?php
+					include_once'statics/footer.php';
+					?>
 
 
-       <?php
-	include_once'statics/footer.php';
-	?>
-			
+
+
 </body>
         <script type="text/javascript" src="assets/js/custom-js.js"></script>
 		<script type='text/javascript' src="assets/js/animate-js.js"></script>

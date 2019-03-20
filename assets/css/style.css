@@ -37,6 +37,7 @@ body {
   height: 120px;
   width: 100%;
   text-align: center;
+  margin-top: 10px;
 }
 .admin-card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -49,11 +50,11 @@ body {
 
 
 .row-card {
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .row-css {  
-  margin-top: 70px;
+  margin-top: 50px;
   margin-bottom: 20px;
 } 
 .nav-pills {
@@ -97,7 +98,7 @@ hr.hr-scroll {
   float: left;
 }
 .typewriter{
-    width: 220px; 
+    width: 230px; 
     background: #E23737;
     color: #fff;
     padding: 10px;
@@ -134,13 +135,17 @@ hr.hr-scroll {
   css for footer
 -------------------------------------------------*/
 .footer {
-   position: fixed;
-   left: 0;
+    position: fixed;
+   right: 0;
    bottom: 0;
+   left: 0;
+
    width: 100%;
    background-color: black;
    color: white;
    text-align: center;
+   z-index: 101;
+
 }
 
 /*////////////////autosroll////////////////////*/
@@ -204,7 +209,9 @@ hr.hr-scroll {
     text-transform: 1px 1px 0px rgba(0, 0, 0, 0.5);
 }
 
-/*css for events.php*/
+/*-------------------------------
+css for events.php
+--------------------------------*/
 
 .carousel-inner {
   height: 550px;
@@ -214,4 +221,29 @@ hr.hr-scroll {
   height:inherit;
   max-width: 100%;
   object-fit: cover;
+}
+
+
+/*----------------------------------
+Css for topbar for everypage
+------------------------------------*/
+
+.title-topbar{
+
+  background-color: black;
+  color: white;
+  height: 70px;
+
+  
+
+}
+
+.h2-topbar {
+  margin-top: 0px;
+  padding-top: 10px;
+  font-family: 'Varela Round', sans-serif;
+font-family: 'Righteous', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform:;
 }

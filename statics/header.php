@@ -34,7 +34,7 @@
                 </li>
 
                 <li>
-                    <a href="#"  onclick='alert("College would not give that information ")'><i class="fa fa-book"></i> Fee Status</a>
+                    <a href="#"  onclick='alert("College would not give that information ")'><i class="fa fa-inr"></i> Fee Status</a>
                 </li>
 
                 <li>

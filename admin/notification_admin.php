@@ -57,7 +57,7 @@
 							    <option value="active">Active</option>
 						    	<option value="disable">Disabled</option>
 					  		</select><br>
-					  		<input id="notification-form" type="submit" class="btn btn-success" value="Post">					  		
+					  		<input id="notification-form" type="submit" class="btn btn-success" value="Post"/>					  		
 							<button id="hide-notice" class="btn btn-danger">Cancel</button>	
 					  	</div>
 					</form>
