@@ -42,7 +42,7 @@
                 </li>
 
                 <li>
-                    <a href="#"  onclick='alert("Feature coming soon")'><i class="fa fa-bus"></i> Bus Route</a>
+                    <a href="busroute.php"><i class="fa fa-bus"></i> Bus Route</a>
                 </li>
 
                 <li>
