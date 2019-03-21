@@ -112,8 +112,20 @@
 					<div class="card">
   						<div class="admin-card">
   							<i class="fa fa-inr fa-3x"></i>
-    						<h4><b>Fee Status</b></h4> 
-    							<p>Update sta0tus here</p> 
+    						<h4><b>Fees Status</b></h4> 
+    							<p>Update here</p> 
+  						</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-4">
+				<a href="events_admin.php">
+					<div class="card">
+  						<div class="admin-card">
+  							<i class="fa fa-building fa-3x"></i>
+    						<h4><b>T&P</b></h4> 
+    							<p>Add info</p> 
   						</div>
 					</div>
 				</a>

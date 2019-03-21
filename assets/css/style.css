@@ -33,7 +33,7 @@ body {
 .admin-card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  height: 120px;
+  height: 140px;
   width: 100%;
   text-align: center;
   margin-top: 10px;
@@ -273,11 +273,49 @@ css for vertical line in bus_route.php
   }
 }
 
-.vertline > .vertline-after {
-  content: "X";
-  border-radius: 50%;
-  background-color: black;
+
+/*------------------------------------
+  css for about.php
+----------------------------------------*/
+
+.about-text {
+  color: black;
 }
 
+.about-hori-line {
+  width: 100%;
+  height: 2px;
 
-/*------------------------------------*/
+  background-color: black;
+  margin-bottom: 10px;
+  animation:lineup1 3s forwards;
+  position: relative;
+}
+
+@keyframes lineup1 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: : 30px;
+  }
+}
+
+.about-text > p {
+  text-align: justify;
+}
+
+.p-text {
+  width: 100%;
+    position: relative;
+  animation: lineup-p 3s ease;
+}
+
+@keyframes lineup-p{
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
+  }
+}

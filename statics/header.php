@@ -30,7 +30,15 @@
                 </li>
 
                 <li>
+                    <a href="#"  ><i class="fa fa-briefcase"></i> Training & Placement</a>
+                </li>
+
+                <li>
                     <a href="#"  onclick='alert("This feature would be added for sure")'><i class="fa fa-book"></i> Syllabus</a>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa fa-calendar"></i> Academic Calendar</a>
                 </li>
 
                 <li>
@@ -46,7 +54,7 @@
                 </li>
 
                 <li>
-                    <a href="#"  onclick='alert("Feature coming soon")'><i class="fa fa-adn"></i> About</a>
+                    <a href="about.php"><i class="fa fa-adn"></i> About</a>
                 </li>
 
                 
