@@ -22,13 +22,7 @@
 			<form>
 				<br><input type="" name="" class="form-control"><br>
 				<input type="" name="" class="form-control"><br>
-				<input type="" name="" class="form-control"><br>
-				<input type="" name="" class="form-control"><br>
-				<input type="" name="" class="form-control"><br>
-				<input type="" name="" class="form-control"><br>
-				<input type="" name="" class="form-control"><br>
-				<input type="" name="" class="form-control"><br>
-				<input type="" name="" class="form-control"><br>
+				
 			</form>
 		</div>
 	</div>
