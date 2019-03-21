@@ -74,6 +74,7 @@
 						<th>Title</th>
 						<th width="40%">Description</th>
 						<th>Post Time</th>
+						<th>Status</th>
 						<th>Actions</th>
 					</thead>
 
@@ -90,9 +91,10 @@
 											<td>'.$row['topic'].'</td>
 											<td>' . $row['details'] . '</td>
 											<td>' . $row['date_time'] . '</td>
+											<td>' . $row['status'] . '</td>
 											<td>
-												<button class="btn btn-success" class="edit-notice" value="' . $row['id'] . '" name="edit">Edit</button>
-												<button class="btn btn-danger" class="delete-notice" value="' . $row['id'] . '" name="delete">Delete</button>
+												<button class="btn btn-success" class="edit-notice" value="' . $row['id'] . '" name="edit_notice" >Edit</button>
+												<button class="btn btn-danger" class="delete-notice" value="' . $row['id'] . '" name="delete_notice">Delete</button>
 											</td>
 										</tr>';
 								}
