@@ -73,7 +73,7 @@
 			
 			
 		</div>
-		<?php
+					<?php
 					include_once'statics/footer.php';
 					?>		
 		
