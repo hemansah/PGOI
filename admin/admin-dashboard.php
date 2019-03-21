@@ -112,7 +112,7 @@
 					<div class="card">
   						<div class="admin-card">
   							<i class="fa fa-inr fa-3x"></i>
-    						<h4><b>Fee Status</b></h4> 
+    						<!-- <h4><b>Fee Status</b></h4>  -->
     							<p>Update sta0tus here</p> 
   						</div>
 					</div>
