@@ -38,7 +38,7 @@
    		 	<div class="row">
    		 		<div class="col-6 offset-2">
    		 			<form >
-   		 				<h2 class="text-white bg-dark">Post an event here!</h2><br>
+   		 				<h2 class="text-white bg-dark text-center">Post an event here!</h2><br>
    		 				<h6><b>Event topic:</h6>
    		 				<input type="text" name="" class="form-control" placeholder="Add the title of the event..."/><br>
    		 				<h6><b>Content</h6>

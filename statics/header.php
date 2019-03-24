@@ -26,15 +26,15 @@
                 </li>
 
                 <li>
-                    <a href="#"  onclick='alert("Companies hahahahah.......")'><i class="fa fa-building"></i> Campus</a>
+                    <a href="#"><i class="fa fa-building"></i> Campus</a>
                 </li>
 
                 <li>
-                    <a href="#"  ><i class="fa fa-briefcase"></i> Training & Placement</a>
+                    <a href="#"><i class="fa fa-briefcase"></i> Training & Placement</a>
                 </li>
 
                 <li>
-                    <a href="#"  onclick='alert("This feature would be added for sure")'><i class="fa fa-book"></i> Syllabus</a>
+                    <a href="#"><i class="fa fa-book"></i> Syllabus</a>
                 </li>
 
                 <li>
@@ -42,7 +42,7 @@
                 </li>
 
                 <li>
-                    <a href="#"  onclick='alert("College would not give that information ")'><i class="fa fa-inr"></i> Fee Status</a>
+                    <a href="#"><i class="fa fa-inr"></i> Fee Status</a>
                 </li>
 
                 <li>

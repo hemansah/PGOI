@@ -16,8 +16,33 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#"><i class="fa fa-book"></i>About</a>
+                    <a href="notification_admin.php"><i class="fa fa-book"></i>Notification</a>
                 </li>
+
+                <li>
+                    <a href="#"><i class="fa fa-clipboard"></i> Attendance</a>
+                </li>
+
+                <li>
+                    <a href="bus_route_admin.php"><i class="fa fa-bus"></i> Bus Route</a>
+                </li>
+
+                <li>
+                    <a href="events_admin.php"><i class="fa fa-calendar"></i> Events</a>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa fa-building"></i> Training & Placement</a>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa fa-book"></i> Syllabus</a>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa fa-inr"></i> Fee status</a>
+                </li>
+
                 <li>
                     <a href="logout.php"><i class="fa fa-sign-out"></i> Logout</a>
                 </li>

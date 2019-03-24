@@ -86,8 +86,8 @@
 					<div class="card">
   						<div class="admin-card">
   							<i class="fa fa-building fa-3x"></i>
-    						<h4><b>Campus</b></h4> 
-    							<p>Publish information</p> 
+    						<h4><b>Training & Placement</b></h4> 
+    							<p>Add Info</p> 
   						</div>
 					</div>
 				</a>
@@ -118,19 +118,7 @@
 					</div>
 				</a>
 			</div>
-
-			<div class="col-4">
-				<a href="events_admin.php">
-					<div class="card">
-  						<div class="admin-card">
-  							<i class="fa fa-building fa-3x"></i>
-    						<h4><b>T&P</b></h4> 
-    							<p>Add info</p> 
-  						</div>
-					</div>
-				</a>
-			</div>
-			</div>		
+		</div>		
 	</div>
 
 </body>
