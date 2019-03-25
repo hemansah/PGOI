@@ -55,7 +55,7 @@
 			</div>
 
 			<div class="col-4">
-				<a href="">
+				<a href="bus_route_admin.php">
 					<div class="card">
   						<div class="admin-card">
   							<i class="fa fa-bus fa-3x"></i>

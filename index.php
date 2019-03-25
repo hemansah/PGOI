@@ -62,7 +62,8 @@
 								if ($notification){
 									while ($row=mysqli_fetch_assoc($notification)){
 
-										echo ' 
+										if ($row['status']=='active') {
+											echo ' 
 											    <li class="notice-li">
 											    	<h4 class="notice-span"> 
 											    		<i class="fa fa-chevron-circle-right" aria-hidden="true"></i> '.$row['topic'].'
@@ -71,6 +72,7 @@
 											    	<p class="notice-p">' . $row['details'] . '</p>
 											    </li>
 						    					<hr class="."hr-scroll".">';
+						    			}
 									}
 								}else{
 									echo "<h4>No Notification to show.</h4>";

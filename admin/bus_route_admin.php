@@ -12,27 +12,27 @@
 
 		<script type="text/javascript">
 			$(document).ready(function() {
-    var max_fields = 30;
-    var wrapper = $(".container1");
-    var add_button = $(".add_form_field");
+			    var max_fields = 35;
+			    var wrapper = $(".container1");
+			    var add_button = $(".add_form_field");
 
-    var x = 1;
-    $(add_button).click(function(e) {
-        e.preventDefault();
-        if (x < max_fields) {
-            x++;
-            $(wrapper).append('<div><input type="text" class="form-control" placeholder="Keep adding more..." name="mytext[]"/><a href="#" class="delete">Delete</a></div>'); //add input box
-        } else {
-            alert('You Reached the limits')
-        }
-    });
+			    var x = 1;
+			    $(add_button).click(function(e) {
+			        e.preventDefault();
+			        if (x < max_fields) {
+			            x++;
+			            $(wrapper).append('<div><input type="text" class="form-control" placeholder="Add more..." name="stop_no[]"/><a href="#" class="delete">Delete</a></div>'); //add input box
+			        } else {
+			            alert('You Reached the limits')
+			        }
+			    });
 
-    $(wrapper).on("click", ".delete", function(e) {
-        e.preventDefault();
-        $(this).parent('div').remove();
-        x--;
-    })
-});	
+			    $(wrapper).on("click", ".delete", function(e) {
+			        e.preventDefault();
+			        $(this).parent('div').remove();
+			        x--;
+			    })
+			});	
 		</script>
 </head>
 <body>
@@ -54,38 +54,25 @@
 			</div>
 		</div>
 
-		<form>
+		<form method="post" >
 			<div class="row">
-				<div class="col-sm-5 offset-1">
+				<div class="col-sm-6 offset-3">
 					
-						<select class="form-control" id="" name="">
-							<option>Choose Bus number</option>
+						<select class="form-control" id="bus_no_select" name="bus_no_select">
+							<option value="0">Choose Bus number</option>
 							<option>Bus no 1</option>
 							<option>Bus no 2</option>
 							<option>Bus no 3</option>
 							<option>Bus no 4</option>
-							<option>Bus no 5</option>
-							<option>Bus no 7</option>
-							<option>Bus no 8</option>
-							<option>Bus no 9</option>
-							<option>Bus no 10</option>
-							<option>Bus no 11</option>
-							<option>Bus no 12</option>
-							<option>Bus no 13</option>
-							<option>Bus no 14</option>
-							<option>Bus no 15</option>
-							<option>Bus no 17</option>
-						</select><br>
+						</select>
+						<h5 class="text-center">OR Enter number</h5>
+						<input type="text" name="bus_no_input"  class="form-control"  placeholder="Number only(No alphabet)"><br>
+
 				</div>	
 			</div>	
 
 			<div class="row">
-				<div class="col-sm-5 offset-1 container1">
-					<input type="text" name="" value="" placeholder="Add 1st bus stop" class="form-control"><br>
-					<input type="text" name="" value="" placeholder="Add 2nd bus stop" class="form-control"><br>
-					<input type="text" name="" value="" placeholder="Add 3rd bus stop" class="form-control"><br>
-					<input type="text" name="" value="" placeholder="Add 4th bus stop" class="form-control"><br>
-					<input type="text" name="" value="" placeholder="Add 5th bus stop" class="form-control"><br>
+				<div class="col-sm-6 offset-3 container1">
 					
 				</div>
 			</div>	
@@ -93,7 +80,7 @@
 
 				<div class="row">
 					
-					<div class="col-sm-2 offset-1">
+					<div class="col-sm-2 offset-3">
 						<input type="button" name="" value="Save" class="btn btn-success">
 					</div>
 					<div class="col-sm-2">
@@ -101,7 +88,7 @@
 					</div>		
 
 					<div class="col-sm-2 ">
-						<input type="button" name="" class="btn btn-primary add_form_field" value="Add more bus stops" onclick="add(document.forms[0].element.value)" style="display: inline;">
+						<input type="button" name="" class="btn btn-primary add_form_field" value="Add bus stops" onclick="add(document.forms[0].element.value)" style="display: inline;">
 					</div>
 				</div>
 

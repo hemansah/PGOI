@@ -51,7 +51,7 @@
 							<?php 
 								if ($notification){
 									while ($row=mysqli_fetch_assoc($notification)){
-
+										if ($row['status']=='active') {
 										echo '
 											<h4><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>'.$row['topic'].'</h4>
 											 <p><strong>Content:</strong> ' . $row['details'] . ' </p>											
@@ -59,6 +59,7 @@
 										    	<p class="td">'.$row['date_time'].'</p>										    	
 										    </div>
 										    <hr class="hr-scroll">	';
+										}
 									}
 								}else{
 									echo "<h4>No Notification to show.</h4>";
