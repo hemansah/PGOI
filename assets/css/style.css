@@ -275,47 +275,19 @@ css for vertical line in bus_route.php
 
 
 /*------------------------------------
-  css for about.php
+  css for campus.php
 ----------------------------------------*/
 
-.about-text {
-  color: black;
-}
-
-.about-hori-line {
-  width: 100%;
-  height: 2px;
-
-  background-color: black;
-  margin-bottom: 10px;
-  animation:lineup1 3s forwards;
-  position: relative;
-}
-
-@keyframes lineup1 {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: : 30px;
-  }
-}
-
-.about-text > p {
-  text-align: justify;
-}
-
-.p-text {
-  width: 100%;
-    position: relative;
-  animation: lineup-p 3s ease;
-}
-
-@keyframes lineup-p{
-  0% {
-    height: 0%;
-  }
-  100% {
-    height: 100%;
-  }
+.typewriter-campus{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold; 
+    background: #E23737;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5%;
+    z-index: 100;
+    text-align: center;
+    box-shadow: 5px -4px 0px rgba(0, 0, 36, 0.5);
 }

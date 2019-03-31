@@ -26,7 +26,7 @@
                 </li>
 
                 <li>
-                    <a href="#"><i class="fa fa-building"></i> Campus</a>
+                    <a href="campus.php"><i class="fa fa-building"></i> Campus</a>
                 </li>
 
                 <li>
