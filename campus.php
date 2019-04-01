@@ -61,7 +61,7 @@
 		    	<div class="col-sm-4">
 					<div class="typewriter-campus">Patel College of Science & Technology</div>
 						<div class="card card-body bg-light" >
-							<img src="" alt="abc" class="img-fluid">
+							<img src="assets/images/image5.jpg" alt="abc" class="img-fluid">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
 						</div>		
 		    	</div>

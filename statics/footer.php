@@ -1,4 +1,4 @@
 		<footer class="footer">
-			<p>Footer here</p>
+			<p>&copy; Patel Group of Institutions 2019</p>
 		</footer>		
  

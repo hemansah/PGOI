@@ -42,7 +42,7 @@
         	<div class="row">
         		<div class="col-sm-8 " style="padding:0px;">
         			<div class="card card-body bg-light" >
-        				<img style="height: auto; width: 100%;" src="assets/images/image2.jpg" class="img-fluid">
+        				<img style="height: auto; width: 100%;" src="assets/images/image4.jpg" class="img-fluid">
         			</div>	
         		</div>
 
