@@ -45,20 +45,30 @@
 				<!-- Notice/Events -->
 				<div class="col-sm-10 my-10 offset-1">
 					<div class="typewriter">
-						<h3>Notifications.</h3>
+						<h3>Notifications...</h3>
 					</div>
-					<div class="card card-body bg-light card-notifications">						
+					<div class="card card-body bg-light card-notifications ">
 							<?php 
 								if ($notification){
 									while ($row=mysqli_fetch_assoc($notification)){
 										if ($row['status']=='active') {
+
+											date_default_timezone_set('Asia/Kolkata');
+											$date1=date('Y-m-d H:i:s');
+											$date2= $row['date_time'];
+											$diff = strtotime($date2) - strtotime($date1);
+											$diff = abs(round($diff / 86400)); 
 										echo '
-											<h4><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>'.$row['topic'].'</h4>
+											<h4 ';
+											    if ($diff<=3) {
+											    	echo ' id= "notification_new" ';
+											    }
+											    echo '><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>'.$row['topic'].'</h4>
 											 <p><strong>Content:</strong> ' . $row['details'] . ' </p>											
 										    <div class="details">
 										    	<p class="td">'.$row['date_time'].'</p>										    	
-										    </div>
-										    <hr class="hr-scroll">	';
+										    </div>';
+										    echo '<hr class="hr-scroll">	';
 										}
 									}
 								}else{

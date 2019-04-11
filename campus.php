@@ -69,6 +69,7 @@
 		    	<div class="col-sm-4">
 		   			<div class="typewriter-campus">Patel Institute of Engineering & Science</div>
 		    			<div class="card card-body bg-light" >
+		    				<img src="assets/images/image16.jpg" alt="abc" class="img-fluid">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
 						</div>
 		    	</div>
@@ -76,6 +77,7 @@
 		    	<div class="col-sm-4">
 		   			<div class="typewriter-campus">Patel College of Pharmacy</div>
 		    			<div class="card card-body bg-light" >
+		    				<img src="assets/images/image6.jpg" alt="abc" class="img-fluid">
 		    				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
 						</div>
 		    	</div>
@@ -85,6 +87,7 @@
 		    	<div class="col-sm-4">
 		    		<div class="typewriter-campus">Hostel Facilities</div>
 		    			<div class="card card-body bg-light" >
+		    				<img src="assets/images/image15.jpg" alt="abc" class="img-fluid">
 		    				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
 						</div>
 		    	</div>
@@ -92,6 +95,15 @@
 		    	<div class="col-sm-4">
 		    		<div class="typewriter-campus">Sports</div>
 		    			<div class="card card-body bg-light" >
+		    				<img src="assets/images/image14.jpg" alt="abc" class="img-fluid">
+		    				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
+						</div>
+		    	</div>
+
+		    	<div class="col-sm-4">
+		    		<div class="typewriter-campus">Workshops</div>
+		    			<div class="card card-body bg-light" >
+		    				<img src="assets/images/image1.jpg" alt="abc" class="img-fluid">
 		    				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
 						</div>
 		    	</div>
@@ -101,6 +113,7 @@
 		    	<div class="col-sm-4">
 		    		<div class="typewriter-campus">Cafeteria</div>
 		    			<div class="card card-body bg-light" >
+		    				<img src="assets/images/image7.jpg" alt="abc" class="img-fluid">
 		    				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.</p>
 						</div>
 		    	</div>

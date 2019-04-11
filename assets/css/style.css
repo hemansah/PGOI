@@ -97,7 +97,7 @@ hr.hr-scroll {
   float: left;
 }
 .typewriter{
-    width: 230px; 
+    width: 270px; 
     background: #E23737;
     color: #fff;
     padding: 10px;
@@ -118,6 +118,27 @@ hr.hr-scroll {
     blink-caret .5s step-end infinite;
 }
 
+#notification_new:after {
+  content: 'NEW';
+  color: #fff;
+  width: 3em;
+  margin-left:1% ;
+  border-radius: 10%;
+  font-size: 0.75em;
+  line-height: 2;
+  text-align: center;
+  background: #f53d3d;
+  box-shadow: 0 0 0 0.25em #c20a0a;
+  animation: pulse 1s infinite;
+}
+@keyframes pulse {
+  0%   { box-shadow: 0 0 0 0.2em #c20a0a; }
+  25%  { box-shadow: 0 0 0 0.05em #c20a0a; }
+  50%  { box-shadow: 0 0 0 0.375em #c20a0a; }
+  75%  { box-shadow: 0 0 0 0.2em #c20a0a; }
+  100% { box-shadow: 0 0 0 0.375em #c20a0a; }
+}
+
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
@@ -133,17 +154,19 @@ hr.hr-scroll {
 /*---------------------------------------------
   css for footer
 -------------------------------------------------*/
-.footer {
-    position: fixed;
+.footer1 {
+   position: fixed;
    right: 0;
    bottom: 0;
    left: 0;
-
    width: 100%;
-   background-color: black;
    color: white;
+   background-color: #537895;
+   background-image: linear-gradient(315deg, #09203f 0%, #537895 74%);
    text-align: center;
    z-index: 101;
+
+   
 
 }
 
@@ -229,7 +252,8 @@ Css for topbar for everypage
 
 .title-topbar{
 
-  background-color: black;
+  background-color: #537895;
+background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
   color: white;
   height: 70px;
 
@@ -244,7 +268,7 @@ Css for topbar for everypage
 font-family: 'Righteous', cursive;
   font-weight: bold;
   font-size: 40px;
-  text-transform:;
+  
 }
 
 
@@ -290,4 +314,30 @@ css for vertical line in bus_route.php
     z-index: 100;
     text-align: center;
     box-shadow: 5px -4px 0px rgba(0, 0, 36, 0.5);
+}
+
+/*----------------------------------------------
+CSS for about.php
+-----------------------------------------------*/
+
+.typewriter_about{
+    width: 190px; 
+    background: #E23737;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5%;
+    z-index: 100;
+    box-shadow: 5px -4px 0px rgba(0, 0, 36, 0.5);
+}
+.typewriter_about h4{
+  color: #fff;
+  overflow: hidden; 
+  border-right: .15em solid #fff; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 2.5s steps(20, end),
+    blink-caret .5s step-end infinite;
 }

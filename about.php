@@ -46,9 +46,9 @@
         			</div>	
         		</div>
 
-        		<div class="col-sm-4 about-text">
-        			<div class="typewriter">
-						<h3>About PGOI</h3>
+        		<div class="col-sm-4 about-text my-2">
+        			<div class="typewriter_about">
+						<h4>About PGOI</h4>
 					</div>
         			<div class="card card-body bg-light" >
         			<p> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Patel Group Of Institution, Ratibad, Bhopal
@@ -60,17 +60,17 @@
 
         	<div class="row">
         		<div class="col-sm-4 about-text">
-        			<div class="typewriter">
-						<h3>Vision</h3>
-					</div>
+        			<div class="typewriter_about">
+						<h4>Vision...<h4>
+				</div>
         			<div class="card card-body bg-light" >
         				<p>The vision of the PGOI is to emerge as a Centre of Excellence in higher technical education for preparing globally competent engineers with managerial skills and knowledge, positive attitude and ethical values to serve the industries. </p>
         			</div>
         		</div>
 
         		<div class="col-sm-4">
-        			<div class="typewriter">
-						<h3>Mission</h3>
+        			<div class="typewriter_about">
+						<h4>Mission...</h4>
 					</div>
 					<div class="card card-body bg-light" >
         				<p>The Mission of the PGOI is to create institutions with infrastructures and facilities for education, training and research to prepare finest technocrats and professionals to serve the industries in general and industries in particular by providing skill and knowledge necessary for the growth of the country. </p>
@@ -86,5 +86,6 @@
 </body>
 
 <script type="text/javascript" src="assets/js/custom-js.js"></script>
-		<script type='text/javascript' src="assets/js/animate-js.js"></script>
+<script type='text/javascript' src="assets/js/animate-js.js"></script>
+                
 </html>

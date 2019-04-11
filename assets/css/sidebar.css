@@ -19,7 +19,8 @@
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background: #000;
+  background-color: #537895;
+background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;

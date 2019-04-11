@@ -5,14 +5,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">	
 
 		<link href="https://fonts.googleapis.com/css?family=Righteous|Varela+Round" rel="stylesheet">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">-->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 		<link rel="stylesheet" type="text/css" href="assets/css/sidebar.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-		 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		 <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
 
 		
 
@@ -42,58 +50,126 @@
 		    	</div>
 		    </div>
 
+		    <div class="row">
+		    	<div class="col-sm-12" style="padding: 0px;">
+		    		<div id="demo" class="carousel slide" data-ride="carousel">
+						  <ul class="carousel-indicators">
+						    <li data-target="#demo" data-slide-to="0" class="active"></li>
+						    <li data-target="#demo" data-slide-to="1"></li>
+						    <li data-target="#demo" data-slide-to="2"></li>
+						  </ul>
+  
+  					<div class="carousel-inner">
+   						<div class="carousel-item active">
+      						<img src="assets/images/image2.jpg" alt="Los Angeles" width="1100" height="500">
+						      <div class="carousel-caption">
+						        <h3></h3>
+						        <p></p>
+						      </div>   
+    					</div>
+    
+    				<div class="carousel-item">
+      					<img src="assets/images/image3.jpg" alt="Chicago" width="1100" height="500">
+     						<div class="carousel-caption">
+						        <h3></h3>
+						        <p></p>
+					      	</div>   
+					</div>
 
+
+    				<div class="carousel-item">
+     					<img src="assets/images/image4.jpg" alt="New York" width="1100" height="500">
+      						<div class="carousel-caption">
+						        <h3></h3>
+						        <p></p>
+      						</div>   
+    					</div>
+  					</div>
+  
+					  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+					    <span class="carousel-control-prev-icon"></span>
+					  </a>
+					  <a class="carousel-control-next" href="#demo" data-slide="next">
+					    <span class="carousel-control-next-icon"></span>
+					  </a>
+					
+					</div>
+
+		    	</div>
+		    </div>
+
+<!----------------------------------
         	<div class="row">
         		<div class="col-12">
         			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-					    <!-- Indicators -->
+					   
 					    <ol class="carousel-indicators">
 					      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					      <li data-target="#myCarousel" data-slide-to="1"></li>
 					      <li data-target="#myCarousel" data-slide-to="2"></li>
 					    </ol>
 
-					    <!-- Wrapper for slides -->
-					    <div class="carousel-inner">
-					      <div class="item active image-height">
-					        <img class="" src="assets/images/image4.jpg" alt="Los Angeles" style="width:100%;">
-					      	<div class="carousel-caption">
-					          <h2>Dummy Image 1</h2>
-					          <p>It's beautiful...</p>
-					        </div>
-					      </div>
-
-					      <div class="item image-height">
-					        <img class="" src="assets/images/image2.jpg" alt="Chicago" style="width:100%;">
-					      	<div class="carousel-caption">
-					          <h2>Dummy Image 2</h2>
-					          <p>We love the Big Apple!</p>
-					        </div>
-					      </div>
 					    
-					      <div class="item image-height">
-					        <img class="" src="assets/images/image5.jpg" alt="New york" style="width:100%;">
-					        <div class="carousel-caption">
-					          <h2>Dummy Image 3</h2>
-					          <p>We love the Big Apple!</p>
-					        </div>
-					      </div>
+					    <div class="carousel-inner">
+					      	<div class="item active image-height">
+					        	<img class="" src="assets/images/image4.jpg" alt="Los Angeles" style="width:100%;">
+					      			<div class="carousel-caption">
+					          			<h2>Dummy Image 1</h2>
+					          			<p>It's beautiful...</p>
+					        		</div>
+					      	</div>
+
+					      	<div class="item image-height">
+					        	<img class="" src="assets/images/image2.jpg" alt="Chicago" style="width:100%;">
+					      			<div class="carousel-caption">
+					          			<h2>Dummy Image 2</h2>
+					          			<p>We love the Big Apple!</p>
+					        		</div>
+					      	</div>
+					    
+					      	<div class="item image-height">
+					        	<img class="" src="assets/images/image5.jpg" alt="New york" style="width:100%;">
+					        		<div class="carousel-caption">
+					          			<h2>Dummy Image 3</h2>
+					          			<p>We love the Big Apple!</p>
+					        		</div>
+					      	</div>
 					    </div>
 
-					    <!-- Left and right controls -->
+					    
 					    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
 					      <span class="glyphicon glyphicon-chevron-left"></span>
 					      <span class="sr-only">Previous</span>
 					    </a>
+
 					    <a class="right carousel-control" href="#myCarousel" data-slide="next">
 					      <span class="glyphicon glyphicon-chevron-right"></span>
 					      <span class="sr-only">Next</span>
 					    </a>
-					  </div>
+					</div>
         		</div>
         	</div>
+
+          End of carousel----------------------------->
+
+
+
+        	<div class="row my-5" >
+        		<div class="col-sm-8 my-10 offset-2">
+        			<div class="typewriter">
+						<h3>Events</h3>
+					</div>
+        			<div class="card card-body bg-light" >
+        					<h4>Event Topic:</h4>
+        					<p>Content: This is event </p>
+        					<p>Event validity: dd/mm/yyyy - dd/mm/yyyy </p>
+        					<hr>
+        			</div>	
+        		</div>
+        	</div>
+
         </div>
-<?php
+					<?php
 					include_once'statics/footer.php';
 					?>
 
