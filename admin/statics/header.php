@@ -40,10 +40,6 @@
                 </li>
 
                 <li>
-                    <a href="#"><i class="fa fa-inr"></i> Fee status</a>
-                </li>
-
-                <li>
                     <a href="logout.php"><i class="fa fa-sign-out"></i> Logout</a>
                 </li>
             </ul>

@@ -9,6 +9,7 @@
 <head>
 	<title>Post Notification</title>
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Righteous|Varela+Round" rel="stylesheet">
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="../assets/css/sidebar.css">
@@ -21,16 +22,20 @@
 	include_once'statics/header.php';
 	?>
 
-	<a href="#menu-toggle" class="btn btn-dark" id="menu-toggle">
-        	<span id="menuHide">Menu</span>
-    </a>
-
+	
 <!--Contents starts here -->
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col-10">
-						
-			</div>
+			<div class="col-12 title-topbar">
+
+		    		<a href="#menu-toggle" class="btn text-white pull-left" id="menu-toggle">
+        			<span id="menuHide">Menu</span>
+        			</a>
+
+		    		<?php
+					include_once'statics/topbar.php';
+					?>
+		    	</div>
 		</div>
 
 		<div class="row row-css">
@@ -67,7 +72,7 @@
 
 
 		<div class="row">
-			<div class="col-11">
+			<div class="col-10 offset-1">
 				<table class="table">
 					<thead class="thead-dark">
 						<th>S.no</th>
