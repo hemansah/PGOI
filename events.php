@@ -54,7 +54,7 @@
 					?>
 		    	</div>
 		    </div>
-
+<!--
 		    <div class="row">
 		    	<div class="col-sm-12" style="padding: 0px;">
 		    		<div id="demo" class="carousel slide" data-ride="carousel">
@@ -101,13 +101,13 @@
 					</div>
 
 		    	</div>
-		    </div>
+		    </div> -->
 
 
         	<div class="row my-5" >
         		<div class="col-sm-8 my-10 offset-2">
         			<div class="typewriter">
-						<h3>Events</h3>
+						<h3 style="text-align: center;">Events...</h3>
 					</div>
         			<div class="card card-body bg-light" >
 
@@ -118,7 +118,7 @@
 											<h4 ><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>'.$row['topic'].'</h4>
 											 <p><strong>Details: </strong> ' . $row['details'] . ' </p>											
 										    <div class="details">
-										    	<p>Event validity: '.$row['event_range'].'</p>										    	
+										    	<b><p>Event validity: '.$row['event_range'].'</p></b>										    	
 										    </div>';
 										    echo '<hr class="hr-scroll">	';
 									}

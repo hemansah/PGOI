@@ -182,11 +182,11 @@ hr.hr-scroll {
   }
 
   .box-click-here {
-    margin-left: 50%;
+    text-align: right;
   }
 
   .box-click-here-events {
-    margin-left: 50%;
+    text-align: right;
   }
 
   /*----------------------------
