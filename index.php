@@ -29,7 +29,7 @@
 		  /* Make the image fully responsive */
 		  .carousel-inner img {
 		    width: 100%;
-		    height: 100%;
+		    height: 83vh;
 		    padding: 0px;
 		  }
   		</style>

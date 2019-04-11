@@ -263,7 +263,7 @@ css for events.php
 --------------------------------*/
 
 .carousel-inner {
-  height: 550px;
+  /*height: 550px;*/
 }
 
 .image-height{
@@ -369,6 +369,7 @@ CSS for about.php
     blink-caret .5s step-end infinite;
 }
 
+<<<<<<< HEAD
 
 
 /*///////////////////////////////////////
@@ -399,4 +400,13 @@ Scroll up button on index.php
 #back2Top:hover {
     background-color: #DDF;
     color: #000;
+=======
+/*********************************
+******* For mobile phones ********
+**********************************/
+@media only screen and (max-width: 768px) {
+  .h2-topbar {
+    font-size: 26px;
+  }
+>>>>>>> 44006fb9523bc44b31ccdc05146629eb1ebd5d19
 }

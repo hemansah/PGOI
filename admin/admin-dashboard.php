@@ -49,7 +49,7 @@
 				</a>
 			</div>
 
-			<div class="col-4">
+			<!-- <div class="col-4">
 				<a href="">
 					<div class="card">
   						<div class="admin-card">
@@ -59,7 +59,7 @@
   						</div>
 					</div>
 				</a>
-			</div>
+			</div> -->
 
 			<div class="col-4">
 				<a href="bus_route_admin.php">
@@ -72,10 +72,6 @@
 					</div>
 				</a>
 			</div>
-
-		</div>
-		
-		<div class="row row-card">
 			<div class="col-4">
 				<a href="events_admin.php">
 					<div class="card">
@@ -88,7 +84,12 @@
 				</a>
 			</div>
 
-			<div class="col-4">
+		</div>
+		
+		<div class="row row-card">
+			
+
+			<!-- <div class="col-4">
 				<a href="">
 					<div class="card">
   						<div class="admin-card">
@@ -110,22 +111,10 @@
   						</div>
 					</div>
 				</a>
-			</div>
+			</div> -->
 
 		</div>	
-		<div class="row row-card">
-			<div class="col-4">
-				<a href="events_admin.php">
-					<div class="card">
-  						<div class="admin-card">
-  							<i class="fa fa-inr fa-3x"></i>
-    						<h4><b>Fees Status</b></h4> 
-    							<p>Update here</p> 
-  						</div>
-					</div>
-				</a>
-			</div>
-		</div>		
+				
 	</div>
 
 </body>

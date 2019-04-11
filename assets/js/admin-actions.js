@@ -376,5 +376,4 @@ $('button[name=edit_event]').click(function(){
 	  		$('#form-for-event').toggle(400);
 	  });
 
-
 });

@@ -40,11 +40,11 @@
 
 		<div class="row row-css">
 			<div class="col-12 ">
-			<button id="add-hide-notice" class="btn btn-info pull-right" style="float: right;">Add Notification</button>			
+				<button id="add-hide-notice" class="btn btn-info pull-right" style="float: right;">Add Notification</button>			
 			</div>
 		</div>
 
-<!----------------------Posting Notification div starts from here-------------------->
+<!--////////////////////// Posting Notification div starts from here///////////////////////-->
 		<div class="row">
 			<div class="col-6 offset-2" >
         		<div class="alert alert-danger error_message" style="display: none; width: 100%; height: auto; line-height: 1;">
@@ -68,7 +68,7 @@
 					</form>
 				</div>
 			</div>
-<!----------------------Posting Notification ends here-------------------------->
+<!--////////////////////Posting Notification ends here/////////////////////////-->
 
 
 		<div class="row">

@@ -9,32 +9,8 @@
 		<link rel="stylesheet" type="text/css" href="../assets/css/sidebar.css">
 		<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-		<script type="text/javascript">
-			$(document).ready(function() {
-			    var max_fields = 35;
-			    var wrapper = $(".container1");
-			    var add_button = $(".add_form_field");
-
-			    var x = 1;
-			    $(add_button).click(function(e) {
-			        e.preventDefault();
-			        if (x < max_fields) {
-			            x++;
-			            $(wrapper).append('<div><input type="text" class="form-control" placeholder="Add more..." name="stop_no[]"/><a href="#" class="delete">Delete</a></div>'); //add input box
-			        } else {
-			            alert('You Reached the limits')
-			        }
-			    });
-
-			    $(wrapper).on("click", ".delete", function(e) {
-			        e.preventDefault();
-			        $(this).parent('div').remove();
-			        x--;
-			    })
-			});	
-		</script>
+		
 </head>
 <body>
 
@@ -58,11 +34,38 @@
 		    	</div>
 		</div>
 
+		<div class="row row-css">
+			<div class="col-12 ">
+				<button id="add-hide-bus-form" class="btn btn-info pull-right" style="float: right;">Add Bus</button>			
+			</div>
+		</div>
+		<!--////////////////////// Posting Notification div starts from here///////////////////////-->
 		<div class="row">
-          <div class="col-12">
-            <br>
-          </div>
-        </div>
+			<div class="col-6 offset-3" >
+        		<div class="alert alert-danger error_message" style="display: none; width: 100%; height: auto; line-height: 1;">
+        		</div>
+        			
+					<form role="form" method="post" id="bus-form" style="display: none;">
+						<div class="form-group">
+							<h2 style="text-align: center;" class="text-white bg-dark" >Add a Bus here!</h2>
+							<h6><b>Bus number:</b></h6>
+							<input type="text" class="form-control" name="bus-number" id="bus-number" placeholder="MP 4444 XY 44" /><br>
+							<h6><b>Driver Name:</b></h6>
+							<input type="text" class="form-control" name="driver-name" id="driver-name" placeholder="First Last" /><br>
+							<h6><b>Driver Contact:</b></h6>
+							<input type="number" class="form-control" name="contact" id="contact" placeholder="9876543210" /><br>
+							<label><b>Choose Action:</b></label>
+							<select class="form-control" id="status" name="status">
+							    <option value="active">Active / Running</option>
+						    	<option value="disable">Disabled / Not Running</option>
+					  		</select><br>
+					  		<input id="notification-form" type="submit" class="btn btn-success" value="Post"/>					  		
+							<button id="hide-bus-form" class="btn btn-danger">Cancel</button>	
+					  	</div>
+					</form>
+				</div>
+			</div>
+		<!--////////////////////Posting Notification ends here/////////////////////////-->
 
 		<form method="post" >
 			<div class="row">
@@ -98,7 +101,7 @@
 					</div>		
 
 					<div class="col-sm-2 ">
-						<input type="button" name="" class="btn btn-primary add_form_field" value="Add bus stops" onclick="add(document.forms[0].element.value)" style="display: inline;">
+						<input type="button" name="" class="btn btn-primary add_form_field" value="Add bus stops" style="display: inline;">
 					</div>
 				</div>
 
@@ -108,7 +111,7 @@
 		</form>
 	</div>
 </body>
-<script type="text/javascript" src="../assets/js/custom-js.js"></script>
-<script type="text/javascript" src="../assets/js/admin-actions.js"></script>
+	<script type="text/javascript" src="../assets/js/custom-js.js"></script>
+	<script type="text/javascript" src="../assets/js/bus-module-js.js"></script>
 </html>
 
