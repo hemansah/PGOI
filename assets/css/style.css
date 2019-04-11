@@ -263,7 +263,7 @@ css for events.php
 --------------------------------*/
 
 .carousel-inner {
-  height: 550px;
+  /*height: 550px;*/
 }
 
 .image-height{
@@ -367,4 +367,13 @@ CSS for about.php
   animation: 
     typing 2.5s steps(20, end),
     blink-caret .5s step-end infinite;
+}
+
+/*********************************
+******* For mobile phones ********
+**********************************/
+@media only screen and (max-width: 768px) {
+  .h2-topbar {
+    font-size: 26px;
+  }
 }
