@@ -3,6 +3,7 @@
 	include 'admin/dbconfig/dbconnect.php';
 	include 'lib/functions-php.php';
 	$notification = all_notifications($dbhandle);
+	$events = all_events($dbhandle);
 ?>
 <!---//////Index common to all//////-->
 
@@ -31,7 +32,7 @@
 	include_once'statics/header.php';
 	?>
         
-<!-----------------Start of Container------------------->
+<!--///////////////Start of Container/////////////////-->
 		<div class="container-fluid">
 		    
 		    <div class="row">
@@ -48,9 +49,9 @@
 		    </div>
 
 
-			<div class="row ml-5">
+			<div class="row ml-5 ">
 				<!-- Notice/Events -->
-				<div class="col-sm-5 my-5">
+				<div class="col-sm-5 my-5 offset-sm-1">
 							<div style="position: relative;">
 								<div class="vertical-text">Notice Board</div>
 							</div>
@@ -80,7 +81,6 @@
 							?>
 						  </ol> 
 						</div>
-
 					</div>
 
 					<div class="box-click-here">
@@ -89,33 +89,28 @@
 
 				</div>
 
-
-
-					    
-					    
-
 				<div class="col-sm-5 my-5">
 							<div style="position: relative;">
 								<div class="vertical-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Events &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
 							</div>
-					<div class="card card-body bg-light event-homepage ">
-					    <h2>Events</h2>
-					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
-					    <h2>Events</h2>
-					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
-					    <h2>Events</h2>
-					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
-					    <h2>Events</h2>
-					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
-					    <h2>Events</h2>
-					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
-					    <h2>Events</h2>
-					    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra codeply varius quam sit amet vulputate.
+					<div class="card card-body bg-light event-homepage scrollbar" id="style-scroll">
+							<?php 
+								if ($events){
+									while ($row=mysqli_fetch_assoc($events)){
+											echo '<h4> <i class="fa fa-chevron-circle-right" aria-hidden="true"></i> &nbsp;'.$row['topic'].'</h4> 
+													<div class="ml-4">' . $row['details'] . '
+														<br><b>Event date:</b>' . $row['event_range'] . '
+													</div>';
+									}
+								}else{
+									echo "<h4>No Events to show.</h4>";
+								}
+							?>
 
 					</div>
 
 					<div class="box-click-here-events">
-						<a href="#"><p>See all>>>>>>>></p></a>
+						<a href="events.php"><p>See all>>>>>>>></p></a>
 					</div>
 
 				</div>
@@ -124,10 +119,8 @@
 			</div>
 
 		</div>
-<!---------------------------End of Container----------------------------------->
-				<?php
-					include_once'statics/footer.php';
-					?>
+<!--//////////////// End of Container////////////////-->
+				<?php include_once'statics/footer.php'; ?>
 
 
 

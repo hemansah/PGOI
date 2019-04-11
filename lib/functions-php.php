@@ -5,7 +5,7 @@
 		return $result;
 	}
 	function all_events($dbhandle){
-		$query = "SELECT * FROM events ORDER BY date_time DESC";
+		$query = "SELECT * FROM events ORDER BY event_range DESC";
 		$result = mysqli_query($dbhandle, $query);
 		return $result;
 	}

@@ -1,6 +1,6 @@
 
 
-    <div id="wrapper" class="toggled" >
+    <div id="wrapper" >
 
         <!-- Sidebar -->
         <div id="sidebar-wrapper">
@@ -39,10 +39,6 @@
 
                 <li>
                     <a href="#"><i class="fa fa-calendar"></i> Academic Calendar</a>
-                </li>
-
-                <li>
-                    <a href="#"><i class="fa fa-inr"></i> Fee Status</a>
                 </li>
 
                 <li>

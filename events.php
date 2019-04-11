@@ -1,3 +1,8 @@
+<?php
+	include 'admin/dbconfig/dbconnect.php';
+	include 'lib/functions-php.php';
+	$events = all_events($dbhandle);
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -98,61 +103,6 @@
 		    	</div>
 		    </div>
 
-<!----------------------------------
-        	<div class="row">
-        		<div class="col-12">
-        			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-					   
-					    <ol class="carousel-indicators">
-					      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					      <li data-target="#myCarousel" data-slide-to="1"></li>
-					      <li data-target="#myCarousel" data-slide-to="2"></li>
-					    </ol>
-
-					    
-					    <div class="carousel-inner">
-					      	<div class="item active image-height">
-					        	<img class="" src="assets/images/image4.jpg" alt="Los Angeles" style="width:100%;">
-					      			<div class="carousel-caption">
-					          			<h2>Dummy Image 1</h2>
-					          			<p>It's beautiful...</p>
-					        		</div>
-					      	</div>
-
-					      	<div class="item image-height">
-					        	<img class="" src="assets/images/image2.jpg" alt="Chicago" style="width:100%;">
-					      			<div class="carousel-caption">
-					          			<h2>Dummy Image 2</h2>
-					          			<p>We love the Big Apple!</p>
-					        		</div>
-					      	</div>
-					    
-					      	<div class="item image-height">
-					        	<img class="" src="assets/images/image5.jpg" alt="New york" style="width:100%;">
-					        		<div class="carousel-caption">
-					          			<h2>Dummy Image 3</h2>
-					          			<p>We love the Big Apple!</p>
-					        		</div>
-					      	</div>
-					    </div>
-
-					    
-					    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-					      <span class="glyphicon glyphicon-chevron-left"></span>
-					      <span class="sr-only">Previous</span>
-					    </a>
-
-					    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-					      <span class="glyphicon glyphicon-chevron-right"></span>
-					      <span class="sr-only">Next</span>
-					    </a>
-					</div>
-        		</div>
-        	</div>
-
-          End of carousel----------------------------->
-
-
 
         	<div class="row my-5" >
         		<div class="col-sm-8 my-10 offset-2">
@@ -160,10 +110,22 @@
 						<h3>Events</h3>
 					</div>
         			<div class="card card-body bg-light" >
-        					<h4>Event Topic:</h4>
-        					<p>Content: This is event </p>
-        					<p>Event validity: dd/mm/yyyy - dd/mm/yyyy </p>
-        					<hr>
+
+							<?php 
+								if ($events){
+									while ($row=mysqli_fetch_assoc($events)){
+										echo '
+											<h4 ><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>'.$row['topic'].'</h4>
+											 <p><strong>Details: </strong> ' . $row['details'] . ' </p>											
+										    <div class="details">
+										    	<p>Event validity: '.$row['event_range'].'</p>										    	
+										    </div>';
+										    echo '<hr class="hr-scroll">	';
+									}
+								}else{
+									echo "<h4>No Notification to show.</h4>";
+								}
+							?>
         			</div>	
         		</div>
         	</div>

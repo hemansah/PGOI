@@ -1,7 +1,7 @@
 <?php
 $hostname="localhost";
 $username ="root";
-$password="123456";
+$password="";
 $dbname="pgoiDB";
 $dbhandle = mysqli_connect($hostname,$username,$password,$dbname);
 $select = mysqli_select_db($dbhandle,$dbname);

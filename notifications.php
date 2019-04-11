@@ -75,8 +75,6 @@
 									echo "<h4>No Notification to show.</h4>";
 								}
 							?>
-
-
 					</div>
 				</div>
 			</div>
