@@ -369,7 +369,6 @@ CSS for about.php
     blink-caret .5s step-end infinite;
 }
 
-<<<<<<< HEAD
 
 
 /*///////////////////////////////////////
@@ -380,7 +379,7 @@ Scroll up button on index.php
     width: 40px;
     line-height: 40px;
     overflow: hidden;
-    z-index: 999;
+    z-index: 111;
     display: none;
     cursor: pointer;
     -moz-transform: rotate(270deg);
@@ -391,16 +390,17 @@ Scroll up button on index.php
     position: fixed;
     bottom: 50px;
     right: 0;
-    background-color: #09203f;
-    color: #fff ;
+    background-color: #E23737;
+    color: #fff;
+    border-radius: 50%; 
     text-align: center;
     font-size: 30px;
     text-decoration: none;
 }
 #back2Top:hover {
     background-color: #DDF;
-    color: #000;
-=======
+    color: #111;
+}
 /*********************************
 ******* For mobile phones ********
 **********************************/
@@ -408,5 +408,4 @@ Scroll up button on index.php
   .h2-topbar {
     font-size: 26px;
   }
->>>>>>> 44006fb9523bc44b31ccdc05146629eb1ebd5d19
 }
