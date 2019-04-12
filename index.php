@@ -29,10 +29,90 @@
 		  /* Make the image fully responsive */
 		  .carousel-inner img {
 		    width: 100%;
-		    height: 83vh;
+		    height: 84vh;
 		    padding: 0px;
 		  }
-  		</style>
+		  #section-scroll a {
+			padding-top: 80px;
+			border: 2px solid rgba(226, 55, 55, 0.7);
+			border-radius: 20px;
+			width: 4%;
+		}
+		#section-scroll a span {
+		  position: absolute;
+		  top: 0;
+		  left: 50%;
+		  width: 24px;
+		  height: 24px;
+		  margin-left: -12px;
+		  border-left: 3px solid #E23737;
+		  border-bottom: 3px solid #E23737;
+		  -webkit-transform: rotate(-45deg);
+		  transform: rotate(-45deg);
+		  -webkit-animation: scroll_down_btn 2s infinite;
+		  animation: scroll_down_btn 2s infinite;
+		  opacity: 0;
+		  box-sizing: border-box;
+		}
+		#section-scroll a span:nth-of-type(1) {
+		  -webkit-animation-delay: 0s;
+		  animation-delay: 0s;
+		}
+		#section-scroll a span:nth-of-type(2) {
+		  top: 16px;
+		  -webkit-animation-delay: .15s;
+		  animation-delay: .15s;
+		}
+		#section-scroll a span:nth-of-type(3) {
+		  top: 32px;
+		  -webkit-animation-delay: .3s;
+		  animation-delay: .3s;
+		}
+		@-webkit-keyframes scroll_down_btn {
+		  0% {
+		    opacity: 0;
+		  }
+		  50% {
+		    opacity: 1;
+		  }
+		  100% {
+		    opacity: 0;
+		  }
+		}
+		@keyframes scroll_down_btn {
+		  0% {
+		    opacity: 0;
+		  }
+		  50% {
+		    opacity: 1;
+		  }
+		  100% {
+		    opacity: 0;
+		  }
+		}
+		.scroll-down-button a {
+		  position: absolute;
+		  bottom: 20px;
+		  left: 48%;
+		  z-index: 2;
+		  display: inline-block;
+		  -webkit-transform: translate(0, -50%);
+		  transform: translate(0, -50%);
+		  color: #E23737;
+		  letter-spacing: .1em;
+		  text-decoration: none;
+		  transition: opacity .3s;
+		}
+		.scroll-down-button a:hover {
+		  opacity: 1;
+		}
+		@media only screen and (max-width: 768px) {
+			#section-scroll a {
+			width: 10%;
+			}
+		}
+
+	</style>
   		
 
   		
@@ -108,12 +188,15 @@
 					</div>
 
 		    	</div>
+		    	<section id="section-scroll" class="scroll-down-button">
+				  <a href="#scroll-till-here" id="scroll-first"><span></span><span></span><span></span></a>
+				</section>
 		    </div>
 
 
 			<div class="row ml-5 ">
 				<!-- Notice/Events -->
-				<div class="col-sm-5 my-5 offset-sm-1">
+				<div class="col-sm-5 my-5 offset-sm-1" id="scroll-till-here">
 							<div style="position: relative;">
 								<div class="vertical-text">Notice Board</div>
 							</div>
@@ -187,4 +270,14 @@
 </body>
         <script type="text/javascript" src="assets/js/custom-js.js"></script>
 		<script type='text/javascript' src="assets/js/animate-js.js"></script>
+		<script type="text/javascript">
+			$(function() {
+	  			$('#scroll-first').on('click', function(e) {
+		    		e.preventDefault();
+		    		$('html, body').animate({ 
+		    				scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear'
+		    			);
+				});
+			});
+		</script>
 </html>

@@ -408,4 +408,7 @@ Scroll up button on index.php
   .h2-topbar {
     font-size: 26px;
   }
+   #section-scroll a {
+      width: 10%;
+    }
 }
