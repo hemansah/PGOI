@@ -78,10 +78,8 @@
 					</div>
 				</div>
 			</div>
-
-			
-			
 		</div>
+
 					<?php
 					include_once'statics/footer.php';
 					?>		
@@ -90,3 +88,5 @@
 </body>	
 	 <script type="text/javascript" src="assets/js/custom-js.js"></script>
 </html>
+			
+			

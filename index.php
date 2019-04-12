@@ -184,9 +184,6 @@
 <!--//////////////// End of Container////////////////-->
 				<?php include_once'statics/footer.php'; ?>
 
-
-<a id="back2Top" title="Back to top" href="#">&#10148;</a>
-
 </body>
         <script type="text/javascript" src="assets/js/custom-js.js"></script>
 		<script type='text/javascript' src="assets/js/animate-js.js"></script>
