@@ -1,4 +1,4 @@
-		<footer class="footer1">
+		<footer class="footer1 position-relative">
 			<div class="row">
 				<div class="col-12">
 					<p style="display: inline;">&copy; Patel Group of Institutions 2019</p>

@@ -34,50 +34,97 @@
         			</a>
 
 		    		<?php
-					include_once'statics/topbar.php';
-					?>
+				include_once'statics/topbar.php';
+				?>
 		    	</div>
         	</div>
 
-        	<div class="row">
-        		<div class="col-sm-8 " style="padding:0px;">
-        			<div class="card card-body bg-light" >
-        				<img style="height: auto; width: 100%;" src="assets/images/image4.jpg" class="img-fluid">
-        			</div>	
-        		</div>
+                <div class="row">
+                        <div>
+                               <br> 
+                        </div>
+                </div>
 
-        		<div class="col-sm-4 about-text my-2">
-        			<div class="typewriter_about">
-						<h4>About PGOI</h4>
-					</div>
-        			<div class="card card-body bg-light" >
-        			<p> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Patel Group Of Institution, Ratibad, Bhopal
-						Vanshpati Smriti Shiksha Samiti, Bhopal established its first engineering college named Patel College of Science & Technology in July 2002 at Ratibad, Bhopal, in order to fulfill cherished desire to participate in the advancement of science and technology for the development of the Nation. Subsequently, a number of colleges under the banner of Patel Group of Institutions (PGOI) were established; Patel college of Pharmacy (2004), Patel College of Education (2005), Patel Institute of Technology (2007) and Patel Institute of Engineering and Science (2008), at Bhopal campus. Patel College of Science & Technology (2006) and Patel College of Management (2005) at Indore.
-					</p>
-				</div>
-        		</div>
-        	</div><br>
+                <div class="row">
+                        <div class="col-sm-2 offset-1">
+                             <img style="height: auto; width: 100%;" src="assets/images/ajit_patel.jpg" class="img-thumbnail"> 
+                                 <div class="card card-body bg-light" style="padding: 0px;">
+                                        <p style="text-align: center;">Dr. Ajit Singh Patel</p>
+                                        <p style="text-align: center;">Vice Chairman, PGOI</p>
+                                </div>        
+                        </div>
 
-        	<div class="row">
-        		<div class="col-sm-4 about-text">
-        			<div class="typewriter_about">
-						<h4>Vision...<h4>
-				</div>
-        			<div class="card card-body bg-light" >
-        				<p>The vision of the PGOI is to emerge as a Centre of Excellence in higher technical education for preparing globally competent engineers with managerial skills and knowledge, positive attitude and ethical values to serve the industries. </p>
-        			</div>
-        		</div>
 
-        		<div class="col-sm-4">
-        			<div class="typewriter_about">
-						<h4>Mission...</h4>
-					</div>
-					<div class="card card-body bg-light" >
-        				<p>The Mission of the PGOI is to create institutions with infrastructures and facilities for education, training and research to prepare finest technocrats and professionals to serve the industries in general and industries in particular by providing skill and knowledge necessary for the growth of the country. </p>
-        			</div>
-        		</div>
-        	</div>
-        </div>
+                        <div class="col-sm-8 about-text my-2">
+                            <div class="typewriter_about_ajit">
+                                <h4>Message from Vice Chairman...</h4>
+                            </div>
+                        
+                                <div class="card card-body bg-light" >
+                                    <p> Excellent facilities with qualified dedicated teachers are the specific features of PGOI for dissemination of knowledge and hands on practice. The students are not only provided required knowledge and skill but exposure to latest technology and innovations through expert lectures from researchers and industrial visits. Personality development through motivational lectures, sports and cultural activities are the regular features at PGOI. The courses are approved by the respective accreditation bodies such as AICTE, PCI, NCTE, New Delhi; and the colleges are affiliated to the Rajiv Gandhi Technical University, Bhopal, Barkatullah University, Bhopal, and DAVV Indore as per the respective degree programmes.
+                                    </p>
+                                </div>
+                        </div>
+                </div>
+                        <hr class="hr-scroll">
+
+                <div class="row">
+                        <br>
+                </div>
+
+
+                <div class="row">
+                        <div class="col-sm-2 offset-1">
+                             <img style="height: auto; width: 100%;" src="assets/images/chairperson.jpg" class="img-thumbnail"> 
+                                 <div class="card card-body bg-light" style="padding: 0px;">
+                                        <p style="text-align: center;">Mrs. Preeti Patel</p>
+                                        <p style="text-align: center;">Chairperson, PGOI</p>
+                                </div>        
+                        </div>
+
+
+                        <div class="col-sm-8 about-text my-2">
+                            <div class="typewriter_about_preeti">
+                                <h4>Message from Vice Chairperson...</h4>
+                            </div>
+                        
+                                <div class="card card-body bg-light" >
+                                    <p> Under the aegis of VANSHPATI SMRITI SHIKSHA SAMITI, Bhopal, Patel Group of Institutions has succeeded in establishing Center of Excellence in higher education for preparing globally competent engineers and professionals with managerial skills and knowledge, positive attitude and ethical values to serve the mankind for the socio-economic development through technological intervention. ’
+                                    </p>
+                                </div>
+                        </div>
+                        
+                </div>
+                <hr class="hr-scroll">
+
+                <div class="row">
+                        <div class="col-sm-2 offset-1">
+                             <img style="height: auto; width: 100%;" src="assets/images/tiwari.png" class="img-thumbnail"> 
+                                 <div class="card card-body bg-light" style="padding: 0px;">
+                                        <p style="text-align: center;">Dr. N.K. Tiwari</p>
+                                        <!-- <p style="text-align: center;">Director, PGOI</p> -->
+                                </div>        
+                        </div>
+
+                        <div class="col-sm-2 offset-1">
+                             <img style="height: auto; width: 100%;" src="assets/images/chauhan.jpg" class="img-thumbnail"> 
+                                 <div class="card card-body bg-light" style="padding: 0px;">
+                                        <p style="text-align: center;">Dr. G.S. Chauhan</p>
+                                        <p style="text-align: center;">Director, PGOI</p>
+                                </div>        
+                        </div>
+
+                        
+
+                       
+                        
+                </div>
+
+                                     
+                                
+                                
+        	 
+</div>
 
 <!---------------------------End of Container----------------------------------->
 				<?php
@@ -89,3 +136,48 @@
 <script type='text/javascript' src="assets/js/animate-js.js"></script>
                 
 </html>
+
+<!-- <div class="row">
+                        <div class="col-sm-8 " style="padding:0px;">
+                                <div class="card card-body bg-light" >
+                                        <img style="height: auto; width: 100%;" src="assets/images/image4.jpg" class="img-fluid">
+                                </div>  
+                        </div>
+
+                        <div class="col-sm-4 about-text my-2">
+                                <div class="typewriter_about">
+                                                <h4>About PGOI</h4>
+                                        </div>
+                                <div class="card card-body bg-light" >
+                                <p> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Patel Group Of Institution, Ratibad, Bhopal
+                                                Vanshpati Smriti Shiksha Samiti, Bhopal established its first engineering college named Patel College of Science & Technology in July 2002 at Ratibad, Bhopal, in order to fulfill cherished desire to participate in the advancement of science and technology for the development of the Nation. Subsequently, a number of colleges under the banner of Patel Group of Institutions (PGOI) were established; Patel college of Pharmacy (2004), Patel College of Education (2005), Patel Institute of Technology (2007) and Patel Institute of Engineering and Science (2008), at Bhopal campus. Patel College of Science & Technology (2006) and Patel College of Management (2005) at Indore.
+                                        </p>
+                                </div>
+                        </div>
+                </div><br>  -->
+                                               
+                                
+                                        
+
+
+
+
+                <!-- <div class="row">
+                        <div class="col-sm-4 about-text">
+                                <div class="typewriter_about">
+                                                <h4>Vision...<h4>
+                                </div>
+                                <div class="card card-body bg-light" >
+                                        <p>The vision of the PGOI is to emerge as a Centre of Excellence in higher technical education for preparing globally competent engineers with managerial skills and knowledge, positive attitude and ethical values to serve the industries. </p>
+                                </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                                <div class="typewriter_about">
+                                                <h4>Mission...</h4>
+                                        </div>
+                                        <div class="card card-body bg-light" >
+                                        <p>The Mission of the PGOI is to create institutions with infrastructures and facilities for education, training and research to prepare finest technocrats and professionals to serve the industries in general and industries in particular by providing skill and knowledge necessary for the growth of the country. </p>
+                                </div>
+                        </div>
+                </div> -->

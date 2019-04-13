@@ -29,7 +29,7 @@
 		  /* Make the image fully responsive */
 		  .carousel-inner img {
 		    width: 100%;
-		    height: 84vh;
+		    height: 100vh;
 		    padding: 0px;
 		  }
 		  #section-scroll a {

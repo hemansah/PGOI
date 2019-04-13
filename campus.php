@@ -37,7 +37,7 @@
 		    </div>
 
 <!-------------------Row for NavBar for Campus------------------------------------->
-		    <div class="row">
+		    <!-- <div class="row">
 		    	<div class="col-sm-12" style="padding: 0px;">
 		    		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
   						<a class="navbar-brand" href="#">PGOI</a>
@@ -55,7 +55,7 @@
   					  </div>
 					</nav>
 		    	</div>
-		    </div>
+		    </div> -->
 <!-------------------------------End of NavBar row----------------------------------------->
 		    <div class="row">
 		    	<div class="col-sm-4">

@@ -155,7 +155,8 @@ hr.hr-scroll {
   css for footer
 -------------------------------------------------*/
 .footer1 {
-   position: fixed;
+   /*position: fixed;*/
+   padding: 0px;
    right: 0;
    bottom: 0;
    left: 0;
@@ -347,8 +348,8 @@ css for vertical line in bus_route.php
 CSS for about.php
 -----------------------------------------------*/
 
-.typewriter_about{
-    width: 190px; 
+.typewriter_about_ajit{
+    width: 470px; 
     background: #E23737;
     color: #fff;
     padding: 10px;
@@ -357,7 +358,7 @@ CSS for about.php
     z-index: 100;
     box-shadow: 5px -4px 0px rgba(0, 0, 36, 0.5);
 }
-.typewriter_about h4{
+.typewriter_about_ajit h4{
   color: #fff;
   overflow: hidden; 
   border-right: .15em solid #fff; 
@@ -369,6 +370,49 @@ CSS for about.php
     blink-caret .5s step-end infinite;
 }
 
+.typewriter_about_preeti{
+    width: 500px; 
+    background: #E23737;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5%;
+    z-index: 100;
+    box-shadow: 5px -4px 0px rgba(0, 0, 36, 0.5);
+}
+.typewriter_about_preeti h4{
+  color: #fff;
+  overflow: hidden; 
+  border-right: .15em solid #fff; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 2.5s steps(20, end),
+    blink-caret .5s step-end infinite;
+}
+
+.typewriter_about_tiwari{
+    width: 450px; 
+    background: #E23737;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5%;
+    z-index: 100;
+    box-shadow: 5px -4px 0px rgba(0, 0, 36, 0.5);
+}
+.typewriter_about_tiwari h4{
+  color: #fff;
+  overflow: hidden; 
+  border-right: .15em solid #fff; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 2.5s steps(20, end),
+    blink-caret .5s step-end infinite;
+}
 
 
 /*///////////////////////////////////////

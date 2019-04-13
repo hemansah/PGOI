@@ -29,21 +29,21 @@
                     <a href="campus.php"><i class="fa fa-building"></i> Campus</a>
                 </li>
 
-                <li>
+                <!-- <li>
                     <a href="#"><i class="fa fa-briefcase"></i> Training & Placement</a>
-                </li>
+                </li> -->
 
-                <li>
+                <!-- <li>
                     <a href="#"><i class="fa fa-book"></i> Syllabus</a>
-                </li>
+                </li> -->
 
-                <li>
+               <!--  <li>
                     <a href="#"><i class="fa fa-calendar"></i> Academic Calendar</a>
                 </li>
 
                 <li>
                     <a href="attendance.php"><i class="fa fa-clipboard"></i> Attendance</a>
-                </li>
+                </li> -->
 
                 <li>
                     <a href="busroute.php"><i class="fa fa-bus"></i> Bus Route</a>
