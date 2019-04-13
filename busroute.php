@@ -111,9 +111,9 @@
 
 
 <!---------------------------End of Container----------------------------------->
-				<?php
+				<!-- <?php
 					include_once'statics/footer.php';
-					?>
+					?> -->
 </body>
 <script type="text/javascript" src="assets/js/custom-js.js"></script>
 <script type='text/javascript' src="assets/js/animate-js.js"></script>
