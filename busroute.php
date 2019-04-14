@@ -1,3 +1,16 @@
+<?php 
+
+	include 'admin/dbconfig/dbconnect.php';
+	include 'lib/functions-php.php';
+	$sql = "SELECT DISTINCT bus_number FROM buses";
+	$result = mysqli_query($dbhandle,$sql);
+
+	if (isset($_GET['get-bus-information'])) {
+		$bus_number = $_REQUEST['sel_bus_number'];
+		$bus_stops = bus_stops($dbhandle,$bus_number);
+		$bus_info = bus_info($dbhandle,$bus_number);
+	}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +25,14 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-		
+		<style type="text/css">
+			.table-dark th{
+				border:none;
+			}
+			h5{
+				display: inline;
+			}
+		</style>
 </head>
 
 
@@ -21,7 +41,7 @@
 	include_once'statics/header.php';
 	?>
 
-	<!------------- Start of Container----------------------->
+	<!--/////////////////// Start of Container /////////////////-->
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-12 title-topbar">
@@ -41,76 +61,91 @@
 			</div>			
 		</div>
 
-			<form>
+			<form method="get" action="" >
 				<div class="row">
 					<div class="col-sm-3 offset-4">
-						<select class="form-control">
-							<option>Select bus number</option>
-							<option>Bus no. 1</option>
-							<option>Bus no. 2</option>
-							<option>Bus no. 3</option>
-							<option>Bus no. 4</option>
-							<option>Bus no. 5</option>
-							<option>Bus no. 6</option>
+						<select class="form-control" name="sel_bus_number">
+							<option value="0">Select bus number</option>
+							<?php 
+								$i=1;
+								while ($row = mysqli_fetch_assoc($result)) {
+									echo '<option value="'.$row['bus_number'].'">Bus no.'.$row['bus_number'].' </option>';
+									$i++;
+								}
+							?>
 						</select>
 					</div>
 
 					<div class="col-sm-4">
-						<input class="btn btn-success" type="button" name="" value="Go">
+						<input class="btn btn-success" type="submit" name="get-bus-information" value="Go">
 					</div>
 				</div>
 			</form>
+			<hr>
 
-<!------------------Row for showing routes ------------------------------>
+<!--///////////////// Row for showing routes ///////////////////////-->
+							<?php 
+							$i=0;
+								while ($row = mysqli_fetch_assoc($bus_info)) {
+									if ($i==0) {
+							echo '
+						<div class="row my-3" style="float: right">
+							<div class="col-sm-6">
+								<table class="table table-dark table-striped text-center" style="border-radius: 10px;">
+									<thead>
+										<th>Bus Number</th>
+										<th>Plate Number</th>
+										<th>Driver name</th>
+										<th>Driver Mobile</th>							
+									</thead>
+									<tbody>
 
-			<div class="row">
-				<div class="col-sm-4 offset-1">
-					<h5>Source: </h5>
+							';
+									}
+									$i++;
+									if ($row['status']=='active') {
+										echo ' 
+											<tr>
+												<td>'.$row['bus_number'].'</td>
+												<td>' . $row['plate_number'] . '</td>
+												<td>' . $row['driver_name'] . '</td>
+												<td>' . $row['contact'] . '</td>
+											</tr>';
+									}
+								}
+							?>
+						</tbody>
+					</table>
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-sm-4 offset-1">
-					<h6>Stop 1:</h6>
-					<div class="vertline"></div>
-					<div class="vertline-after">
-						
-					</div>
-				</div>			
-			</div>
-
-			<div class="row">
-				<div class="col-sm-4 offset-1">
-					<h6>Stop 1:</h6>
-					<div class="vertline"></div>
-					<div class="vertline-after">
-						
-					</div>
-				</div>			
-			</div>
-
-			<div class="row">
-				<div class="col-sm-4 offset-1">
-					<h6>Stop 1:</h6>
-					<div class="vertline"></div>
-					<div class="vertline-after">
-						
-					</div>
-				</div>			
-			</div>
-				
-
-			
-
-			
-
-			
-
+			<?php 
+			$i = 1;
+				while ($row = mysqli_fetch_assoc($bus_stops)) {
+					if ($i==1) {
+						echo '
+							<div class="row">
+								<div class="col-sm-4 offset-4">
+									<h5>Source </h5>
+								</div>
+							</div>' ;
+					}
+						echo '
+						<div class="row">
+							<div class="col-sm-4 offset-4">
+								<div class="vertline"></div>
+								<div class="vertline-after"></div>
+								<h5>Stop '.$i.' :</h5> '.$row['bus_stop'].' : '. $row['pick_time'] . '
+							</div>
+						</div>';
+							$i++;
+				}
+			?>
 
 	</div>		
 
 
-<!---------------------------End of Container----------------------------------->
+<!--End of Container-->
 				<!-- <?php
 					include_once'statics/footer.php';
 					?> -->

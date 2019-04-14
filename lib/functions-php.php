@@ -15,7 +15,12 @@
 		return $result;
 	}
 	function bus_stops($dbhandle,$bus_number){
-		$query = "SELECT * FROM bus_routes WHERE bus_number = $bus_number ORDER BY pick_time DESC";
+		$query = "SELECT * FROM bus_routes WHERE bus_number = $bus_number ORDER BY pick_time ASC";
+		$result = mysqli_query($dbhandle, $query);
+		return $result;
+	}
+	function bus_info($dbhandle,$bus_number){
+		$query = "SELECT * FROM buses WHERE bus_number = $bus_number";
 		$result = mysqli_query($dbhandle, $query);
 		return $result;
 	}
