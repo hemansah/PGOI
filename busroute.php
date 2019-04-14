@@ -32,6 +32,15 @@
 			h5{
 				display: inline;
 			}
+			@media (min-width: 1025px){
+				#row-of-busInfo{
+					float: right;
+				} 
+				
+			div.container-fluid div:last-child div.bus-stops-list{
+			  margin-left: 20%;
+			}
+			}
 		</style>
 </head>
 
@@ -86,11 +95,11 @@
 <!--///////////////// Row for showing routes ///////////////////////-->
 							<?php 
 							$i=0;
-								while ($row = mysqli_fetch_assoc($bus_info)) {
+								while ( isset($bus_info) && $row = mysqli_fetch_assoc($bus_info)) {
 									if ($i==0) {
 							echo '
-						<div class="row my-3" style="float: right">
-							<div class="col-sm-6">
+						<div class="row my-3"  id="row-of-busInfo" >
+							<div class="col-sm-12">
 								<table class="table table-dark table-striped text-center" style="border-radius: 10px;">
 									<thead>
 										<th>Bus Number</th>
@@ -121,7 +130,7 @@
 
 			<?php 
 			$i = 1;
-				while ($row = mysqli_fetch_assoc($bus_stops)) {
+				while (isset($bus_stops) && $row = mysqli_fetch_assoc($bus_stops)) {
 					if ($i==1) {
 						echo '
 							<div class="row">
@@ -132,7 +141,7 @@
 					}
 						echo '
 						<div class="row">
-							<div class="col-sm-4 offset-4">
+							<div class="col-sm-4 offset-4 bus-stops-list">
 								<div class="vertline"></div>
 								<div class="vertline-after"></div>
 								<h5>Stop '.$i.' :</h5> '.$row['bus_stop'].' : '. $row['pick_time'] . '
