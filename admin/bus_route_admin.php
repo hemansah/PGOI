@@ -1,3 +1,4 @@
+<!--Major project 8th semester. Made by three people - Abhineet Singh, Hemant Sah, Ritu Kumari.-->
 <?php 
 
 	include 'dbconfig/dbconnect.php';

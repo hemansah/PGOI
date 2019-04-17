@@ -1,3 +1,5 @@
+<!--Major project 8th semester. Made by three people - Abhineet Singh, Hemant Sah, Ritu Kumari.-->
+
 <?php 
 
 	include 'admin/dbconfig/dbconnect.php';
@@ -194,7 +196,7 @@
 		    </div>
 
 
-			<div class="row ml-5 ">
+			<div class="row ml-2 ">
 				<!-- Notice/Events -->
 				<div class="col-sm-5 my-5 offset-sm-1" id="scroll-till-here">
 							<div style="position: relative;">
@@ -209,16 +211,8 @@
 									while ($row=mysqli_fetch_assoc($notification)){
 
 										if ($row['status']=='active') {
-											echo ' 
-											    	<h5 class="notice-span"> 
-											    <li class="notice-li">
-											    		<i class="fa fa-chevron-circle-right" aria-hidden="true"></i> '.$row['topic'].'
-											    	</li>
-											    	</h5>
-											    	<br>
-											    	<p class="notice-p">' . $row['details'] . '</p>
-											    
-						    					<hr class="."hr-scroll".">';
+											echo '<h5 style="font-weight:bolder;"> <i class="fa fa-chevron-circle-right" aria-hidden="true"></i> &nbsp;'.$row['topic'].'</h5> 
+													<div class="ml-4">' . $row['details'] . '</div><hr>';
 						    			}
 									}
 								}else{
@@ -230,7 +224,7 @@
 					</div>
 
 					<div class="box-click-here">
-						<a href="notifications.php"><p>See all>>>>>>>></p></a>
+						<a href="notifications.php"><p>See all></p></a>
 					</div>
 
 				</div>
@@ -247,7 +241,6 @@
 													<div class="ml-4">' . $row['details'] . '
 														<br><b>Event date:</b>' . $row['event_range'] . '
 													</div><hr>';
-
 									}
 								}else{
 									echo "<h4>No Events to show.</h4>";
@@ -257,7 +250,7 @@
 					</div>
 
 					<div class="box-click-here-events">
-						<a href="events.php"><p>See all>>>>>>>></p></a>
+						<a href="events.php"><p>See all></p></a>
 					</div>
 
 				</div>

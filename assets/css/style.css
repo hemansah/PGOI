@@ -292,7 +292,7 @@ background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
 
 .h2-topbar {
   margin-top: 0px;
-  padding-top: 10px;
+  padding: 0px;
   font-family: 'Varela Round', sans-serif;
 font-family: 'Righteous', cursive;
   font-weight: bold;
@@ -451,7 +451,8 @@ Scroll up button on index.php
 **********************************/
 @media only screen and (max-width: 768px) {
   .h2-topbar {
-    font-size: 26px;
+    font-size: 19px;
+    padding: 18px;
   }
    #section-scroll a {
       width: 10%;
