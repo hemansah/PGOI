@@ -5,7 +5,7 @@
 	$notification = all_notifications($dbhandle);
 	$events = all_events($dbhandle);
 ?>
-<!---//////Index common to all//////-->
+
 
 <!DOCTYPE html>
 <html>
@@ -210,13 +210,14 @@
 
 										if ($row['status']=='active') {
 											echo ' 
+											    	<h5 class="notice-span"> 
 											    <li class="notice-li">
-											    	<h4 class="notice-span"> 
 											    		<i class="fa fa-chevron-circle-right" aria-hidden="true"></i> '.$row['topic'].'
-											    	</h4>
+											    	</li>
+											    	</h5>
 											    	<br>
 											    	<p class="notice-p">' . $row['details'] . '</p>
-											    </li>
+											    
 						    					<hr class="."hr-scroll".">';
 						    			}
 									}
@@ -242,10 +243,11 @@
 							<?php 
 								if ($events){
 									while ($row=mysqli_fetch_assoc($events)){
-											echo '<h4> <i class="fa fa-chevron-circle-right" aria-hidden="true"></i> &nbsp;'.$row['topic'].'</h4> 
+											echo '<h5 style="font-weight:bolder;"> <i class="fa fa-chevron-circle-right" aria-hidden="true"></i> &nbsp;'.$row['topic'].'</h5> 
 													<div class="ml-4">' . $row['details'] . '
 														<br><b>Event date:</b>' . $row['event_range'] . '
-													</div>';
+													</div><hr>';
+
 									}
 								}else{
 									echo "<h4>No Events to show.</h4>";

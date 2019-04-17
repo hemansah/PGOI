@@ -66,12 +66,12 @@
                                 </div>
                         </div>
                 </div>
-                        <hr class="hr-scroll">
 
-                <div class="row">
-                        <br>
+                 <div class="row">
+                        <div class="col-sm-10 offset-1">
+                                <hr class="hr-scroll">
+                        </div>
                 </div>
-
 
                 <div class="row">
                         <div class="col-sm-2 offset-1">
@@ -95,14 +95,57 @@
                         </div>
                         
                 </div>
-                <hr class="hr-scroll">
+
+                <div class="row">
+                        <div class="col-sm-2 offset-1">
+                             <img style="height: auto; width: 100%;" src="assets/images/gyanendra.jpg" class="img-thumbnail"> 
+                                 <div class="card card-body bg-light" style="padding: 0px;">
+                                        <p style="text-align: center;">Dr. Gyanendra Singh</p>
+                                        <p style="text-align: center;"> Group Director</p>
+                                </div>        
+                        </div>
+
+
+                        <div class="col-sm-8 about-text my-2">
+                            <div class="typewriter_about_ajit">
+                                <h4>Message from Group Director...</h4>
+                            </div>
+                        
+                                <div class="card card-body bg-light" >
+                                    <p> Patel Group of Institutions are the best technical institutions in the Central India. Students are privileged who seek admission in higher technical and professional education in one of the colleges of the PGOI. The college provides all amenities and facilities to enable the students to acquire knowledge and skill to prepare them to become globally competent engineers/professionals. Beside academics, the students are exposed to real field situations through project works, skill up-gradation and visits to industries to enable them to get exposition to advanced technology. The faculties regularly monitor progress and provide personal guidance to each one of them through tutor-guardian relationship. Participation in co-curricular and extra-curricular activities enables them to imbibe leadership qualities and to develop inherent talents that help in opting future career. I wish the students for their bright future and successful professional career.
+                                    </p>
+                                </div>
+                        </div>
+                </div>
+
+                <div class="row">
+                        <div class="col-sm-10 offset-1">
+                                <hr class="hr-scroll">
+                        </div>
+                </div>
+
+                
+
+                <div class="row">
+                        <br>
+                </div>
+
+
+                
+
+                <div class="row">
+                        <div class="col-sm-10 offset-1">
+                                <hr class="hr-scroll">
+                        </div>
+                </div>
+                
 
                 <div class="row">
                         <div class="col-sm-2 offset-1">
                              <img style="height: auto; width: 100%;" src="assets/images/tiwari.png" class="img-thumbnail"> 
                                  <div class="card card-body bg-light" style="padding: 0px;">
                                         <p style="text-align: center;">Dr. N.K. Tiwari</p>
-                                        <!-- <p style="text-align: center;">Director, PGOI</p> -->
+                                        <p style="text-align: center;">Registrar, MPU</p>
                                 </div>        
                         </div>
 
@@ -110,15 +153,22 @@
                              <img style="height: auto; width: 100%;" src="assets/images/chauhan.jpg" class="img-thumbnail"> 
                                  <div class="card card-body bg-light" style="padding: 0px;">
                                         <p style="text-align: center;">Dr. G.S. Chauhan</p>
-                                        <p style="text-align: center;">Director, PGOI</p>
+                                        <p style="text-align: center;">Director, PIT</p>
                                 </div>        
                         </div>
+                </div>
+
+                <div class="row">
+                        <div class="col-sm-10 offset-1">
+                                <hr class="hr-scroll">
+                        </div>
+                </div>
+
 
                         
 
                        
                         
-                </div>
 
                                      
                                 

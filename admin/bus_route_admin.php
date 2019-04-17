@@ -56,7 +56,7 @@
 							<div class="form-group row">
 								<label class="col-sm-3 col-form-label"><b>Bus plate number:</b></label>
 								<div class="col-sm-9">
-									<input type="text" class="form-control" name="plate-number" id="plate-number" placeholder="MP 4444 XY 44" />
+									<input type="text" class="form-control" name="plate-number" id="plate-number" placeholder="MP 00 XY 0000" />
 								</div>
 							</div>
 

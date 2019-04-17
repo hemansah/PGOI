@@ -209,6 +209,7 @@ hr.hr-scroll {
 } 
 .notice-span{
   position: absolute;
+  font-weight: bolder;
 }
 .vertical-text{
     background: #E23737;

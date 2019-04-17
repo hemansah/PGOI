@@ -30,16 +30,16 @@
 				border:none;
 			}
 			h5{
-				display: inline;
+				display:s inline;
 			}
 			@media (min-width: 1025px){
-				#row-of-busInfo{
+				/*#row-of-busInfo{
 					float: right;
-				} 
+				}*/ 
 				
-			div.container-fluid div:last-child div.bus-stops-list{
+			/*div.container-fluid div:last-child div.bus-stops-list{
 			  margin-left: 20%;
-			}
+			}*/
 			}
 		</style>
 </head>
@@ -144,7 +144,7 @@
 							<div class="col-sm-4 offset-4 bus-stops-list">
 								<div class="vertline"></div>
 								<div class="vertline-after"></div>
-								<h5>Stop '.$i.' :</h5> '.$row['bus_stop'].' : '. $row['pick_time'] . '
+								<h5><b>Stop '.$i.' : </b>'.$row['bus_stop'].' - '. $row['pick_time'] . '</h5> 
 							</div>
 						</div>';
 							$i++;
