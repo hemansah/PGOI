@@ -41,7 +41,7 @@
 		    	</div>
 		    </div>
 		    		
-			<div class="row ml-5 row-css">
+			<div class="row  row-css">
 				<!-- Notice/Events -->
 				<div class="col-sm-10 my-10 offset-1">
 					<div class="typewriter">

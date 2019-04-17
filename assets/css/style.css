@@ -457,3 +457,11 @@ Scroll up button on index.php
       width: 10%;
     }
 }
+/*********************************
+******* ONLY For desktops ********
+**********************************/
+@media (min-width: 1281px) {
+  .row-css {
+    margin-left: 15%;
+  }
+}
