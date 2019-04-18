@@ -47,7 +47,7 @@
                 </div>
 
                 <div class="row">
-                        <div class="col-sm-2 offset-1">
+                        <div class="col-sm-2 ">
                              <img style="height: auto; width: 100%;" src="assets/images/ajit_patel.jpg" class="img-thumbnail"> 
                                  <div class="card card-body bg-light" style="padding: 0px;">
                                         <p style="text-align: center;">Dr. Ajit Singh Patel</p>
@@ -69,13 +69,13 @@
                 </div>
 
                  <div class="row">
-                        <div class="col-sm-10 offset-1">
+                        <div class="col-sm-10 ">
                                 <hr class="hr-scroll">
                         </div>
                 </div>
 
                 <div class="row">
-                        <div class="col-sm-2 offset-1">
+                        <div class="col-sm-2 ">
                              <img style="height: auto; width: 100%;" src="assets/images/chairperson.jpg" class="img-thumbnail"> 
                                  <div class="card card-body bg-light" style="padding: 0px;">
                                         <p style="text-align: center;">Mrs. Preeti Patel</p>
@@ -98,7 +98,7 @@
                 </div>
 
                 <div class="row">
-                        <div class="col-sm-2 offset-1">
+                        <div class="col-sm-2 ">
                              <img style="height: auto; width: 100%;" src="assets/images/gyanendra.jpg" class="img-thumbnail"> 
                                  <div class="card card-body bg-light" style="padding: 0px;">
                                         <p style="text-align: center;">Dr. Gyanendra Singh</p>
@@ -120,7 +120,7 @@
                 </div>
 
                 <div class="row">
-                        <div class="col-sm-10 offset-1">
+                        <div class="col-sm-10 ">
                                 <hr class="hr-scroll">
                         </div>
                 </div>
@@ -135,14 +135,14 @@
                 
 
                 <div class="row">
-                        <div class="col-sm-10 offset-1">
+                        <div class="col-sm-10">
                                 <hr class="hr-scroll">
                         </div>
                 </div>
                 
 
                 <div class="row">
-                        <div class="col-sm-2 offset-1">
+                        <div class="col-sm-2">
                              <img style="height: auto; width: 100%;" src="assets/images/tiwari.png" class="img-thumbnail"> 
                                  <div class="card card-body bg-light" style="padding: 0px;">
                                         <p style="text-align: center;">Dr. N.K. Tiwari</p>
@@ -150,7 +150,7 @@
                                 </div>        
                         </div>
 
-                        <div class="col-sm-2 offset-1">
+                        <div class="col-sm-2 ">
                              <img style="height: auto; width: 100%;" src="assets/images/chauhan.jpg" class="img-thumbnail"> 
                                  <div class="card card-body bg-light" style="padding: 0px;">
                                         <p style="text-align: center;">Dr. G.S. Chauhan</p>
@@ -160,12 +160,13 @@
                 </div>
 
                 <div class="row">
-                        <div class="col-sm-10 offset-1">
+                        <div class="col-sm-10">
                                 <hr class="hr-scroll">
                         </div>
                 </div>
 
 
+</div>
                         
 
                        
@@ -175,7 +176,6 @@
                                 
                                 
         	 
-</div>
 
 <!---------------------------End of Container----------------------------------->
 				<?php
