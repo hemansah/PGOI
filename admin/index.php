@@ -1,4 +1,4 @@
-<!--Major project 8th semester. Made by three people - Abhineet Singh, Hemant Sah, Ritu Kumari.-->
+
 <?php
 session_start(); // Starting Session
 include 'dbconfig/dbconnect.php';
@@ -9,7 +9,9 @@ include 'dbconfig/dbconnect.php';
 <!DOCTYPE html>
 <html>
 <head>
+	<!--Major project 8th semester. Made by three people - Abhineet Singh, Hemant Sah, Ritu Kumari.-->
 	<title>Admin Panel</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
 	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
