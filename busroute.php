@@ -135,14 +135,14 @@
 					if ($i==1) {
 						echo '
 							<div class="row">
-								<div class="col-sm-4 offset-4">
+								<div class="col-sm-4 offset-2">
 									<h5>Source </h5>
 								</div>
 							</div>' ;
 					}
 						echo '
 						<div class="row">
-							<div class="col-sm-4 offset-4 bus-stops-list">
+							<div class="col-sm-4 offset-2 bus-stops-list">
 								<div class="vertline"></div>
 								<div class="vertline-after"></div>
 								<h5><b>Stop '.$i.' : </b>'.$row['bus_stop'].' - '. $row['pick_time'] . '</h5> 
