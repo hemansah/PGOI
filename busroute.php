@@ -71,10 +71,10 @@
 			</div>			
 		</div>
 
-			<form method="get" action="" >
 				<div class="row">
-					<div class="col-sm-3 offset-4">
-						<select class="form-control" name="sel_bus_number">
+					<div class="col-sm-12 text-center">
+			<form method="get" action="" >
+						<select class="form-control" name="sel_bus_number" style="display: inline; width: auto;">
 							<option value="0">Select bus number</option>
 							<?php 
 								$i=1;
@@ -84,13 +84,11 @@
 								}
 							?>
 						</select>
-					</div>
 
-					<div class="col-sm-4">
-						<input class="btn btn-success" type="submit" name="get-bus-information" value="Go">
+						<input class="btn btn-success " type="submit" name="get-bus-information" value="Go">
+			</form>
 					</div>
 				</div>
-			</form>
 			<hr>
 
 <!--///////////////// Row for showing routes ///////////////////////-->
